@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "indicator_count": 13,
+  "scope": "Independent indicators; no trading EA; see Chinese reports for actual test scope",
+  "indicators": [
+    {
+      "name": "GSM_ADX_Trend_Meter",
+      "source": "packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.mq5",
+      "binary": "packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.ex5",
+      "source_sha256": "dd9d9843faec00000b9a02ebf039da1373ff7a885061280ad0faf4f7e41b1d96",
+      "ex5_sha256": "799e756e87abb9471496950c64744799fc894f1b4b7f5a107a88ac9a389eead2",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\GSM_ADX_Trend_Meter",
+      "version": "1.00"
+    },
+    {
+      "name": "Saty_ATR_Levels_MT5",
+      "source": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.mq5",
+      "binary": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.ex5",
+      "source_sha256": "66d52bd48563f013736b1118c800bc27d41ac331a6e0b64f0b74aed57fdb9779",
+      "ex5_sha256": "d316258cbcf21c949db5ea8ad323fd0a1f711755d086423e47788af0fce32f32",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\Saty_ATR_Levels_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "Volume_Flow_Indicator_MT5",
+      "source": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.mq5",
+      "binary": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.ex5",
+      "source_sha256": "a44356cdddf4f9eacc625fbf65995cd84b33695954eb0e97e0c80a14b612ac0e",
+      "ex5_sha256": "567d075f86a5a8798a766b7f0747d710300c8f5172f2e8ed3394ce0e589db9aa",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\Volume_Flow_Indicator_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "Bollinger_RSI_ChartArt_MT5",
+      "source": "packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.ex5",
+      "source_sha256": "c97eb1a381e5c86adf7775ad2cbaeeb230bfaaf06b483c84387359c1f7398aca",
+      "ex5_sha256": "fca1fe68ec9e92f69ccd50f23d7822217a30b12f1300cecf7d4f7329436a812c",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\Bollinger_RSI_ChartArt_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "CM_MACD_Ult_MTF_MT5",
+      "source": "packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.ex5",
+      "source_sha256": "ccbe5367aa6fb1021663f4feae555f19a73b709926d2fe9909121138a04e4876",
+      "ex5_sha256": "7cd0c8375bff41b72e972953efd43ec9ea56195d1c98ab5a83af31fee612ce1d",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\CM_MACD_Ult_MTF_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "EMA_20_50_100_200_MT5",
+      "source": "packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.ex5",
+      "source_sha256": "7c69a5ffb8b108a7072aa0a0522cc1b2a4593401d40983ab742ffc7979563b1f",
+      "ex5_sha256": "977efc81263bf78ea3d8b73da860c45cb9e9c759f6067aeb45f535bfbf9cc171",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\EMA_20_50_100_200_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "GSM_SND_MT5",
+      "source": "packages/MT5_Indicator_Suite/GSM_SND_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/GSM_SND_MT5.ex5",
+      "source_sha256": "c753309c3ef86b2f4aa88c932525cd7fdcba234395154f09ac380f471f9d8f69",
+      "ex5_sha256": "346ad99a150a622b677b08bbc0c4834fb89ee60ff95e8dd78bc07bbd683952a7",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\GSM_SND_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "GSM_SNR_MT5",
+      "source": "packages/MT5_Indicator_Suite/GSM_SNR_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/GSM_SNR_MT5.ex5",
+      "source_sha256": "68715755d58cf2002d3e09eaddf53b656414325789a58b606cd2c5e70c01322c",
+      "ex5_sha256": "703008e8a93f488d42c1c9ed945a388c24201eb644189738c0989d0f1597738a",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\GSM_SNR_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "SMA_Ribbon_10_MT5",
+      "source": "packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.ex5",
+      "source_sha256": "cf900a90af6e879e564c79c4db0494e99fcd2b54789157273df6aa6d7f7aced7",
+      "ex5_sha256": "801dae5e29750f410ab5b95d95dfc0876e51a775ff971ffbd44f6d9bf18ea32d",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\SMA_Ribbon_10_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "SMC_Structure_MT5",
+      "source": "packages/MT5_Indicator_Suite/SMC_Structure_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/SMC_Structure_MT5.ex5",
+      "source_sha256": "139f563b2be042938e3f4ce81bd371e6cc6eee45589029560d3f6f3b41d23bcb",
+      "ex5_sha256": "9a391964d0aef043acb21b51c3bc4ae4c6fe1526a349c123f18fced7486f0bf2",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\SMC_Structure_MT5",
+      "version": "2.00"
+    },
+    {
+      "name": "Stoch_RSI_MT5",
+      "source": "packages/MT5_Indicator_Suite/Stoch_RSI_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/Stoch_RSI_MT5.ex5",
+      "source_sha256": "0ebfb5de1e448ba02273ae31be47a6288fb99717eaef8be1c93de73a3675bff4",
+      "ex5_sha256": "a5b7ae063d2436e40ef23e069ecdf9477fd939f1ca2d179cb4940fb0bb35c398",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\Stoch_RSI_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "Volume_Profile_MT5",
+      "source": "packages/MT5_Indicator_Suite/Volume_Profile_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/Volume_Profile_MT5.ex5",
+      "source_sha256": "007ec76fe7a132d8b6089ac35584566b4262e563cd65673f48a1d0494202afad",
+      "ex5_sha256": "083334cc911e53edf01c691a2a34a20373ebd89d825b1f30a8837d1445e4a642",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\Volume_Profile_MT5",
+      "version": "1.00"
+    },
+    {
+      "name": "ZeroLag_MACD_MT5",
+      "source": "packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.mq5",
+      "binary": "packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.ex5",
+      "source_sha256": "5922f3a25cb84ef4ac44c5d049b6f4fa15789a780f3f4ee720d722384d6200a8",
+      "ex5_sha256": "1e0a1f6d194735ab4529e7fbfbe719ed4ce15e0452e3fa83a0a763acd4e9dfdd",
+      "install_directory": "MQL5/Indicators/GSM",
+      "icustom_name": "GSM\\ZeroLag_MACD_MT5",
+      "version": "1.00"
+    }
+  ]
+}

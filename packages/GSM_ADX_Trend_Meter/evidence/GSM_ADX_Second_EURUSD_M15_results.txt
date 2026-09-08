@@ -1,0 +1,18 @@
+INFO|SECOND_REAL_NATIVE_UI|symbol=EURUSD tf=M15; default Wilder14; alerts master true; popup/sound/push false.
+PASS|SECOND_BROKER_SYMBOL_NOT_CUSTOM|symbol=EURUSD tf=M15
+PASS|SECOND_OWN_REAL_CHART|chart=42490565049590
+PASS|SECOND_TRADE_DECORATIONS_OFF|
+PHASE|SECOND_LOAD_BEGIN|chart=42490565049590 symbol=EURUSD tf=M15 expected_historical_alerts=0 current_bar=2026.09.08 19:15
+PASS|SECOND_NATIVE_TEMPLATE_APPLIED|
+PASS|SECOND_NATIVE_PANEL_READY|symbol=EURUSD tf=M15
+PASS|REAL_CURVES_AND_CLOSED_INTERFACE|tf=M15 native_shortname=GSM ADX 趋势强弱测量器 [ADX Wilder 14 #2] lines=3 current_confirmed_empty=12
+PASS|REAL_CHINESE_PANEL|tf=M15 prefix=GSM_ADX_42490565049590_2_ 算法：ADX Wilder    参数：14 数据：最近已收盘K线
+PASS|REAL_RECENT_BUFFER_CSV|tf=M15 rows=50 buffers=15
+PASS|SECOND_TRADE_DECORATIONS_ABSENT|
+PASS|SECOND_NATIVE_TEMPLATE_SAVED|template=GSM_ADX_Second_EURUSD_M15.tpl
+NATIVE_SCREENSHOT|file=GSM_ADX_Second_EURUSD_M15.png|chart=42490565049590|size=2703x573|windows=2
+PASS|SECOND_NATIVE_SCREENSHOT|image=GSM_ADX_Second_EURUSD_M15.png
+TEMPLATE_AND_IMAGE_REVIEW_REQUIRED|GSM_ADX_Second_EURUSD_M15.tpl|Confirm 3 curves, 20/25/40 levels, Chinese panel, and actual broker symbol/timeframe.
+PHASE|SECOND_LOAD_END|chart=42490565049590 symbol=EURUSD tf=M15 expected_historical_alerts=0
+PASS|SECOND_FINAL_CLEANUP|
+RUNTIME_SCOPE=PASS groups=12 failures=0; visual and historical-alert verdict requires native image/template/journal review

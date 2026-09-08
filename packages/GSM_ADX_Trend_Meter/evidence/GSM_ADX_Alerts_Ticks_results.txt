@@ -1,0 +1,18 @@
+INFO|SYNTHETIC_QUOTE_ONLY_SCHEDULER|Unmodified production EX5; initial rates seed once; all delivery channels false.
+PASS|SEED_HISTORY_ONCE|symbol=AQT_8742703; all subsequent mutations use CustomTicksAdd only
+PASS|PREPARE_ADAPTIVE_THRESHOLDS|
+PARAMETERS|symbol=AQT_8742703 method=WILDER period=14 weak=15.128354645742471 trend=17.190888812517304 strong=37.190888812517301 alerts=true popup=false sound=false push=false
+PHASE|INITIAL_LOAD_BEGIN|symbol=AQT_8742703 expected_alerts=0
+PASS|INITIAL_CONFIRMED_DATA|
+PHASE|INITIAL_LOAD_END|symbol=AQT_8742703 expected_alerts=0
+PHASE|INTRABAR_BEGIN|symbol=AQT_8742703 expected_alerts=0
+PASS|UNFINISHED_MULTI_TICK_NO_CONFIRMED_EVENT|live_raw_changes=18 closed_buffers_unchanged=1
+PHASE|INTRABAR_END|symbol=AQT_8742703 expected_alerts=0
+PHASE|NEW_BAR_BEGIN|symbol=AQT_8742703
+PASS|CLOSE_CONFIRMS_MULTIPLE_EVENTS|expected_mask=3 actual_mask=3
+EXPECTED_ALERT|symbol=AQT_8742703|tf=M1|bar=2026.06.08 02:39|mask=3|count=1|events=ADX 上穿 15.1284，关注趋势形成；ADX 上穿 17.1909，强度提升
+PHASE|SAME_BAR_DEDUP_BEGIN|symbol=AQT_8742703 expected_additional_alerts=0
+PASS|SAME_BAR_12_TICKS_CONFIRMED_STABLE|
+PHASE|SAME_BAR_DEDUP_END|symbol=AQT_8742703 expected_total_alerts=1
+LOG_VERIFICATION_REQUIRED|Compare production GSM_ADX_ALERT_CONFIRMED lines for this unique symbol against EXPECTED_ALERT; exactly one merged line and no initial/intrabar/dedup extra lines.
+BUFFER_SCOPE=PASS groups=6 failures=0; final alert-dispatch verdict requires matching native journal

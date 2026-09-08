@@ -1,0 +1,12 @@
+ED	0	00:19:00.219	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PASS|SEED_HISTORY_ONCE|symbol=AQT_8742703; all subsequent mutations use CustomTicksAdd only
+JM	0	00:19:00.433	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PARAMETERS|symbol=AQT_8742703 method=WILDER period=14 weak=15.128354645742471 trend=17.190888812517304 strong=37.190888812517301 alerts=true popup=false sound=false push=false
+KL	0	00:19:00.433	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|INITIAL_LOAD_BEGIN|symbol=AQT_8742703 expected_alerts=0
+QN	0	00:19:00.457	GSM_ADX_Trend_Meter (AQT_8742703,M1)	GSM_ADX_INIT | AQT_8742703 M1 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42485941532354_1_
+GL	0	00:19:00.855	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|INITIAL_LOAD_END|symbol=AQT_8742703 expected_alerts=0
+MO	0	00:19:00.855	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|INTRABAR_BEGIN|symbol=AQT_8742703 expected_alerts=0
+GO	0	00:19:01.519	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|INTRABAR_END|symbol=AQT_8742703 expected_alerts=0
+IK	0	00:19:01.519	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|NEW_BAR_BEGIN|symbol=AQT_8742703
+KJ	0	00:19:01.519	GSM_ADX_Trend_Meter (AQT_8742703,M1)	GSM_ADX_ALERT_CONFIRMED | GSM ADX | AQT_8742703 M1 | ADX 上穿 15.1284，关注趋势形成；ADX 上穿 17.1909，强度提升 | ADX 19.28，+DI 99.85，-DI 0.00 | 信号K线 2026.06.08 02:39
+FF	0	00:19:01.610	GSM_ADX_Alerts_Ticks (EURUSD,M1)	EXPECTED_ALERT|symbol=AQT_8742703|tf=M1|bar=2026.06.08 02:39|mask=3|count=1|events=ADX 上穿 15.1284，关注趋势形成；ADX 上穿 17.1909，强度提升
+EK	0	00:19:01.610	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|SAME_BAR_DEDUP_BEGIN|symbol=AQT_8742703 expected_additional_alerts=0
+PP	0	00:19:03.231	GSM_ADX_Alerts_Ticks (EURUSD,M1)	PHASE|SAME_BAR_DEDUP_END|symbol=AQT_8742703 expected_total_alerts=1

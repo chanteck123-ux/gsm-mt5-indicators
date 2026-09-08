@@ -1,0 +1,53 @@
+SMC complete LuxAlgo source adaptation validation. Synthetic M1 fixtures; no performance/trading claims.
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_D1 bars=2
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M1 bars=1100
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M5 bars=220
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_D1 bars=1
+WARM_READY symbol=CODEX_SMC_U_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_U_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_U_73788156 tf=PERIOD_D1 bars=2
+WARM_READY symbol=CODEX_SMC_T_73788156 tf=PERIOD_M1 bars=90
+WARM_READY symbol=CODEX_SMC_T_73788156 tf=PERIOD_M5 bars=18
+WARM_READY symbol=CODEX_SMC_T_73788156 tf=PERIOD_D1 bars=1
+COVERAGE internal BOS=19 CHoCH=37 swing BOS=6 CHoCH=8 region_mask_or=12159 valid_region_samples=3960
+M5_FVG_CREATIONS=157
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_D1 bars=2
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_D1 bars=2
+QUOTE_PULSE symbol=CODEX_SMC_F_73788156 attempt=1 time_msc=1767661199000 price=163.580072 added=1 error=0 old_handle=10
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_F_73788156 tf=PERIOD_D1 bars=2
+OLD_HANDLE_RECOVERED symbol=CODEX_SMC_F_73788156 handle=10 quote_attempt=1 bars=1500
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_D1 bars=2
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_D1 bars=2
+QUOTE_PULSE symbol=CODEX_SMC_P_73788156 attempt=1 time_msc=1767661199000 price=103.580072 added=1 error=0 old_handle=11
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M1 bars=1500
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_M5 bars=300
+WARM_READY symbol=CODEX_SMC_P_73788156 tf=PERIOD_D1 bars=2
+OLD_HANDLE_RECOVERED symbol=CODEX_SMC_P_73788156 handle=11 quote_attempt=1 bars=1500
+NATIVE_TEMPLATE applied=1 target_objects=177
+DRAW chart=42436436652729 host=42436416879371 objects=177 owners=1 ob_labels=6 fvg_labels=3
+SCREENSHOT canvas=2688x575 exists=1
+PASS | Custom fixtures, disabled trading and all 35 public buffers ready | samples=5 | failures=0 | max_error=0
+PASS | Full 1500 vs prefix 1100, all historical buffers through 1098 | samples=38465 | failures=0 | max_error=0
+PASS | Adversarial future prices cannot change prefix historical buffers | samples=38465 | failures=0 | max_error=0
+PASS | Prior-day high/low appear at next day boundary, never during the source day | samples=121 | failures=0 | max_error=0
+PASS | Source leg: exact right-side confirmation, high priority and same-leg suppression | samples=26 | failures=0 | max_error=0
+PASS | Region boundaries, active count cap, event domain and ATR validity | samples=15945 | failures=0 | max_error=0
+PASS | Synthetic fixture covers BOS, CHoCH, OB, FVG, retest and invalidation | samples=8 | failures=0 | max_error=0
+PASS | Current bar produces no confirmed events and freezes last closed snapshot | samples=35 | failures=0 | max_error=0
+PASS | M5 FVG source alignment and 35-buffer prefix/future causality | samples=78731 | failures=0 | max_error=0
+PASS | History OHLC update plus quote event refreshes OLD handle without changing closed buffers | samples=104935 | failures=0 | max_error=0
+PASS | Append plus quote event refreshes OLD handle; prefix and full state remain equal | samples=90933 | failures=0 | max_error=0
+PASS | Native chart-owned source SMC, OB/FVG objects and actual-canvas screenshot | samples=10 | failures=0 | max_error=0
+OVERALL=PASS | groups=12 | failed_groups=0 | elapsed_ms=3094

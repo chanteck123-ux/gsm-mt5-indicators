@@ -1,0 +1,35 @@
+SYNTHETIC CUSTOM SYMBOLS ONLY. This script makes no trades or account API calls; this is not a performance backtest.
+BB_PARAMETER_LAYOUT count=16 indicator_type=43
+BB_PARAMETER index=0 type=TYPE_STRING integer=0 double=0 string=Indicators\Bollinger_RSI_ChartArt_MT5.ex5
+BB_PARAMETER index=1 type=TYPE_STRING integer=0 double=0 string=@group '计算参数（原始默认值：200 / 2 / 6 / 50）'
+BB_PARAMETER index=2 type=TYPE_INT integer=200 double=0 string=(null)
+BB_PARAMETER index=3 type=TYPE_DOUBLE integer=0 double=2 string=(null)
+BB_PARAMETER index=4 type=TYPE_INT integer=6 double=0 string=(null)
+BB_PARAMETER index=5 type=TYPE_DOUBLE integer=0 double=50 string=(null)
+BB_PARAMETER index=6 type=TYPE_STRING integer=0 double=0 string=@group '显示（箭头是条件提示，不是成交记录）'
+BB_PARAMETER index=7 type=TYPE_BOOL integer=0 double=0 string=(null)
+BB_PARAMETER index=8 type=TYPE_UINT integer=3943715 double=0 string=(null)
+BB_PARAMETER index=9 type=TYPE_BOOL integer=1 double=0 string=(null)
+BB_PARAMETER index=10 type=TYPE_DOUBLE integer=0 double=10 string=(null)
+BB_PARAMETER index=11 type=TYPE_BOOL integer=1 double=0 string=(null)
+BB_PARAMETER index=12 type=TYPE_BOOL integer=0 double=0 string=(null)
+BB_PARAMETER index=13 type=TYPE_INT integer=500 double=0 string=(null)
+BB_PARAMETER index=14 type=TYPE_UINT integer=2111254 double=0 string=(null)
+BB_PARAMETER index=15 type=TYPE_UINT integer=1644860 double=0 string=(null)
+COVERAGE buy_arrows=60 sell_arrows=60 bull_colors=20 bear_colors=40 exact_equal_SMA_windows=60
+VP reference POC=99.3954773869 VAH=101.8135678392 VAL=61.9150753769 level_weights=155535 input_volume=22966 VA_percent=68.52541229
+PASS | Custom disabled synthetic symbol fixture and indicator readiness | samples=1 | failures=0 | max_error=0
+PASS | SMA EMA BB RSI warmup EMPTY_VALUE and no live-bar arrows | samples=3332 | failures=0 | max_error=0
+PASS | All ten SMA independent direct-window means | samples=47440 | failures=0 | max_error=6.8212102633e-13
+PASS | All ten SMA color indices compare close with MA | samples=47440 | failures=0 | max_error=0
+PASS | All four EMA geometric decay first-close seed reference | samples=19634 | failures=0 | max_error=1.20792265079e-12
+PASS | BB basis and population standard deviation independent direct-window formula | samples=14403 | failures=0 | max_error=2.55795384874e-13
+PASS | RSI Wilder independent gain fraction formula including flat RSI=50 | samples=9988 | failures=0 | max_error=4.26325641456e-14
+PASS | BB simultaneous RSI and price crossings, closed-bar-only arrows | samples=9600 | failures=0 | max_error=0
+PASS | Exact original non-RSI TrendColor conditions and colored candle buffers | samples=9840 | failures=0 | max_error=0
+PASS | Exactly equal complete SMA window sums cannot manufacture trend colors | samples=60 | failures=0 | max_error=0
+PASS | Flat BB=100 all three lines with no buy/sell arrows | samples=24403 | failures=0 | max_error=0
+PASS | Both BB arrow directions and source color directions exercised | samples=3 | failures=0 | max_error=0
+PASS | VP nested candle-level reference POC VAH VAL weights input coverage count | samples=7 | failures=0 | max_error=0
+PASS | VP latest snapshot only; flat range has EMPTY prices and no fabricated POC | samples=35000 | failures=0 | max_error=0
+OVERALL=PASS | metric_groups=14 | failed_groups=0 | elapsed_ms=187

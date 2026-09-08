@@ -1,0 +1,32 @@
+SYNTHETIC_ONLY|terminal_build=6182 run=2026.09.09 00:26:16 source_seed=first_available_full_period
+PASS|DAY_FIXTURE|
+PASS|DAY_HANDLES|
+PASS|DAY_PREVIOUS_RMA_ORACLE|values=5904 failures=0 bars=144 source_days=36 RMA=14
+PASS|DAY_CURRENT_CAUSAL_ORACLE|values=5904 failures=0 bars=144 source_days=36 RMA=14
+PASS|DISPLAY_SWITCH_INVARIANCE|values=5904 failures=0
+PASS|CURRENT_MODE_PREFIX_NO_FUTURE|values=3239 failures=0 prefix_bars=79
+PASS|CURRENT_MODE_FUTURE_PERTURBATION|values=3239 failures=0 future_start=79
+PASS|FIRST_PARTIAL_PERIOD_EMPTY_RANGE|
+INVALID_INIT_OBSERVATION case=0 handle=16 calculated=0 Chinese_OnInit_error_required=true
+INVALID_INIT_OBSERVATION case=1 handle=17 calculated=0 Chinese_OnInit_error_required=true
+INVALID_INIT_OBSERVATION case=2 handle=18 calculated=0 Chinese_OnInit_error_required=true
+PASS|INVALID_PERIOD_INPUTS|asynchronous OnInit settled 600ms; correlate 3 Chinese init-failure log entries
+PASS|WEEKLY_RMA_AND_LEVELS|source_weeks=6 first_complete=0 RMA=3 values=4608 failures=0
+PASS|CURRENT_TICK_CLOSED_STABILITY|closed_values=5863 failures=0 OHLC_unchanged_by_pulse=1
+PASS|CURRENT_TICK_OLD_HANDLE_VS_FRESH|values=5904 failures=0 current_raw_actually_changed=1 history_write_before_quote=true
+PASS|QUOTE_ONLY_CLOSED_STABILITY|values=5863 failures=0 no_history_write=true observed_OHLC_correct=1
+PASS|QUOTE_ONLY_INCREMENTAL_VS_FRESH|values=5904 failures=0 live_raw_actually_changed=1
+PASS|NATIVE_PANEL|saved=1 applied=1 own_objects=10
+PASS|NATIVE_SCREENSHOT|canvas=2708x575
+PASS|CALENDAR_FIXTURE|192 months / 2000-2015 / 384 synthetic M1 bars
+PASS|CALENDAR_PREVIOUS_ANCHORS|mode=2 months_per_period=1 RMA=14 values=7104 failures=0
+PASS|CALENDAR_DEVELOPING_CURRENT|mode=2 months_per_period=1 bars=192 failures=0
+PASS|CALENDAR_PREVIOUS_ANCHORS|mode=3 months_per_period=3 RMA=14 values=7104 failures=0
+PASS|CALENDAR_DEVELOPING_CURRENT|mode=3 months_per_period=3 bars=192 failures=0
+PASS|CALENDAR_PREVIOUS_ANCHORS|mode=4 months_per_period=12 RMA=14 values=7104 failures=0
+PASS|CALENDAR_DEVELOPING_CURRENT|mode=4 months_per_period=12 bars=192 failures=0
+PASS|MISSING_WHOLE_QUARTER_SAFE_RESEED|first_restored_month=6 first_index=3 next_index=6 current_RMA1=1.000000000000000 next_previous_RMA1=1.000000000000000
+PASS|INCOMPLETE_LAST_MONTH_SAFE_RESEED|first_restored_month=3 first_index=2 next_index=5 current_RMA1=1.000000000000000 next_previous_RMA1=1.000000000000000
+PASS|VALID_ZERO_ATR_NO_DIVISION|closed_and_current_samples=8 levels=240 failures=0
+NOT_TESTED|TRADINGVIEW_BROKER_PARITY|MT5 synthetic oracle is not a cross-feed live TradingView parity test.
+OVERALL=PASS groups=26 failures=0

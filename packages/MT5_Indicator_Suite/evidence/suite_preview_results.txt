@@ -1,0 +1,20 @@
+SYNTHETIC DATA / VISUAL CHECK ONLY host_chart=42419794541732 host_symbol=EURUSD
+ATTACH ChartArt Bollinger + RSI chart=42419800973438 handle=10 attached=1 ready=1 indicators=1 target_objects=0 target_own_objects=0 host_objects=6 error=0
+TEMPLATE ChartArt Bollinger + RSI name=suite_preview_0_372125937.tpl saved=1 applied=1 ready=1 apply_error=0 target_own_objects=6 target_objects=6 host_objects=0
+CANVAS ChartArt Bollinger + RSI width=2703 height=575
+SCREENSHOT ChartArt Bollinger + RSI chart=42419800973438 file=suite_bb.png returned=1 exists=1 error=0 final_indicators=1 objects=6 own_objects=6 object_check=1 native_template=1
+CLOSE chart=42419800973438 requested=1 error=0
+ATTACH SMA Ribbon 10 chart=42419830384065 handle=10 attached=1 ready=1 indicators=1 target_objects=0 target_own_objects=0 host_objects=0 error=0
+CANVAS SMA Ribbon 10 width=2703 height=575
+SCREENSHOT SMA Ribbon 10 chart=42419830384065 file=suite_sma.png returned=1 exists=1 error=0 final_indicators=1 objects=0 own_objects=0 object_check=1 native_template=0
+CLOSE chart=42419830384065 requested=1 error=0
+ATTACH EMA 20 / 50 / 100 / 200 chart=42419849252285 handle=10 attached=1 ready=1 indicators=1 target_objects=0 target_own_objects=0 host_objects=0 error=0
+CANVAS EMA 20 / 50 / 100 / 200 width=2703 height=575
+SCREENSHOT EMA 20 / 50 / 100 / 200 chart=42419849252285 file=suite_ema.png returned=1 exists=1 error=0 final_indicators=1 objects=0 own_objects=0 object_check=1 native_template=0
+CLOSE chart=42419849252285 requested=1 error=0
+ATTACH Volume Profile (repeated source weights) chart=42419868028187 handle=10 attached=1 ready=1 indicators=1 target_objects=0 target_own_objects=0 host_objects=5 error=0
+TEMPLATE Volume Profile (repeated source weights) name=suite_preview_3_372125937.tpl saved=1 applied=1 ready=1 apply_error=0 target_own_objects=204 target_objects=204 host_objects=0
+CANVAS Volume Profile (repeated source weights) width=2703 height=575
+SCREENSHOT Volume Profile (repeated source weights) chart=42419868028187 file=suite_vp.png returned=1 exists=1 error=0 final_indicators=1 objects=204 own_objects=204 object_check=1 native_template=1
+CLOSE chart=42419868028187 requested=1 error=0
+DONE elapsed_ms=9703 host_objects=0 manual_visual_QA_required=1

@@ -1,0 +1,149 @@
+INFO|ENVIRONMENT|terminal_build=6140 run_local=2026.09.09 00:00:56 script=GSM_ADX_Compare_Broker no_order_or_account_APIs=true
+INFO|LIMITATION|This script verifies numeric buffers on available history. It does not claim notification delivery, full visual QA, strategy profitability, or disconnect simulation.
+INFO|ACTUAL_PARAMETERS|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off handle=11 count=52
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=0 type=TYPE_STRING integer=0 double=0 string=Indicators\GSM\GSM_ADX_Trend_Meter.ex5
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=1 type=TYPE_STRING integer=0 double=0 string=@group '一、算法与事件定义'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=2 type=TYPE_INT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=3 type=TYPE_INT integer=14 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=4 type=TYPE_DOUBLE integer=0 double=20 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=5 type=TYPE_DOUBLE integer=0 double=25 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=6 type=TYPE_DOUBLE integer=0 double=40 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=7 type=TYPE_DOUBLE integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=8 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=9 type=TYPE_INT integer=3 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=10 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=11 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=12 type=TYPE_INT integer=3 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=13 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=14 type=TYPE_DOUBLE integer=0 double=25 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=15 type=TYPE_STRING integer=0 double=0 string=@group '二、显示与中文面板'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=16 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=17 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=18 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=19 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=20 type=TYPE_INT integer=500 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=21 type=TYPE_UINT integer=16748574 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=22 type=TYPE_UINT integer=3329330 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=23 type=TYPE_UINT integer=4678655 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=24 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=25 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=26 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=27 type=TYPE_UINT integer=9470064 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=28 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=29 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=30 type=TYPE_INT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=31 type=TYPE_INT integer=12 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=32 type=TYPE_INT integer=14 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=33 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=34 type=TYPE_STRING integer=0 double=0 string=Microsoft YaHei
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=35 type=TYPE_UINT integer=14474460 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=36 type=TYPE_UINT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=37 type=TYPE_STRING integer=0 double=0 string=@group '三、提醒（默认总开关关闭）'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=38 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=39 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=40 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=41 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=42 type=TYPE_STRING integer=0 double=0 string=alert.wav
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=43 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=44 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=45 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=46 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=47 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=48 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=49 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=50 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=visible_alert_master_off slot=51 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|ACTUAL_PARAMETERS|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off handle=12 count=52
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=0 type=TYPE_STRING integer=0 double=0 string=Indicators\GSM\GSM_ADX_Trend_Meter.ex5
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=1 type=TYPE_STRING integer=0 double=0 string=@group '一、算法与事件定义'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=2 type=TYPE_INT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=3 type=TYPE_INT integer=14 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=4 type=TYPE_DOUBLE integer=0 double=20 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=5 type=TYPE_DOUBLE integer=0 double=25 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=6 type=TYPE_DOUBLE integer=0 double=40 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=7 type=TYPE_DOUBLE integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=8 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=9 type=TYPE_INT integer=3 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=10 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=11 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=12 type=TYPE_INT integer=3 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=13 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=14 type=TYPE_DOUBLE integer=0 double=25 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=15 type=TYPE_STRING integer=0 double=0 string=@group '二、显示与中文面板'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=16 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=17 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=18 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=19 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=20 type=TYPE_INT integer=17 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=21 type=TYPE_UINT integer=16748574 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=22 type=TYPE_UINT integer=3329330 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=23 type=TYPE_UINT integer=4678655 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=24 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=25 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=26 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=27 type=TYPE_UINT integer=9470064 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=28 type=TYPE_INT integer=2 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=29 type=TYPE_INT integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=30 type=TYPE_INT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=31 type=TYPE_INT integer=12 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=32 type=TYPE_INT integer=14 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=33 type=TYPE_INT integer=10 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=34 type=TYPE_STRING integer=0 double=0 string=Microsoft YaHei
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=35 type=TYPE_UINT integer=14474460 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=36 type=TYPE_UINT integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=37 type=TYPE_STRING integer=0 double=0 string=@group '三、提醒（默认总开关关闭）'
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=38 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=39 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=40 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=41 type=TYPE_BOOL integer=0 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=42 type=TYPE_STRING integer=0 double=0 string=alert.wav
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=43 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=44 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=45 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=46 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=47 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=48 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=49 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=50 type=TYPE_BOOL integer=1 double=0 string=(null)
+INFO|PARAMETER|symbol=GOLD tf=M5 method=WILDER adx_period=14 profile=hidden_alert_master_on_channels_off slot=51 type=TYPE_BOOL integer=1 double=0 string=(null)
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=M5 method=WILDER adx_period=14 samples=500 line_values=1500 history_first=2025.04.10 05:00:00 history_bars=100000 excluded_min=200 from=2026.09.04 19:40:00 to=2026.09.08 18:50:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=M5 method=WILDER adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=M5 method=WILDER adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=M5 method=WILDER adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=M5 method=MT5_STANDARD adx_period=14 samples=500 line_values=1500 history_first=2025.04.10 05:00:00 history_bars=100000 excluded_min=200 from=2026.09.04 19:40:00 to=2026.09.08 18:50:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=M5 method=MT5_STANDARD adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=M5 method=MT5_STANDARD adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=M5 method=MT5_STANDARD adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=M15 method=WILDER adx_period=14 samples=500 line_values=1500 history_first=2022.06.15 20:15:00 history_bars=100001 excluded_min=200 from=2026.09.01 05:30:00 to=2026.09.08 18:45:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=M15 method=WILDER adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=M15 method=WILDER adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=M15 method=WILDER adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=M15 method=MT5_STANDARD adx_period=14 samples=500 line_values=1500 history_first=2022.06.15 20:15:00 history_bars=100001 excluded_min=200 from=2026.09.01 05:30:00 to=2026.09.08 18:45:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=M15 method=MT5_STANDARD adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=M15 method=MT5_STANDARD adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=M15 method=MT5_STANDARD adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=H1 method=WILDER adx_period=14 samples=500 line_values=1500 history_first=2022.01.03 00:00:00 history_bars=27877 excluded_min=200 from=2026.08.07 22:00:00 to=2026.09.08 18:00:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=H1 method=WILDER adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=H1 method=WILDER adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=H1 method=WILDER adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=H1 method=MT5_STANDARD adx_period=14 samples=500 line_values=1500 history_first=2022.01.03 00:00:00 history_bars=27877 excluded_min=200 from=2026.08.07 22:00:00 to=2026.09.08 18:00:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=H1 method=MT5_STANDARD adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=H1 method=MT5_STANDARD adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=H1 method=MT5_STANDARD adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=H4 method=WILDER adx_period=14 samples=500 line_values=1500 history_first=2022.01.03 00:00:00 history_bars=7245 excluded_min=200 from=2026.05.14 00:00:00 to=2026.09.08 12:00:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=H4 method=WILDER adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=H4 method=WILDER adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=H4 method=WILDER adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=GOLD tf=H4 method=MT5_STANDARD adx_period=14 samples=500 line_values=1500 history_first=2022.01.03 00:00:00 history_bars=7245 excluded_min=200 from=2026.05.14 00:00:00 to=2026.09.08 12:00:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=GOLD tf=H4 method=MT5_STANDARD adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=GOLD tf=H4 method=MT5_STANDARD adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=GOLD tf=H4 method=MT5_STANDARD adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=EURUSD tf=M15 method=WILDER adx_period=14 samples=500 line_values=1500 history_first=2022.08.30 20:15:00 history_bars=100000 excluded_min=200 from=2026.09.01 14:00:00 to=2026.09.08 18:45:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=EURUSD tf=M15 method=WILDER adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=EURUSD tf=M15 method=WILDER adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=EURUSD tf=M15 method=WILDER adx_period=14 exact_copies=24 failures=0
+PASS|BUILTIN_NUMERIC| symbol=EURUSD tf=M15 method=MT5_STANDARD adx_period=14 samples=500 line_values=1500 history_first=2022.08.30 20:15:00 history_bars=100000 excluded_min=200 from=2026.09.01 14:00:00 to=2026.09.08 18:45:00 tolerance=1e-08 origin=BROKER_HISTORY max_ADX=0 max_PlusDI=0 max_MinusDI=0 failures=0
+PASS|CLOSED_INTERFACE|symbol=EURUSD tf=M15 method=MT5_STANDARD adx_period=14 values=6000 failures=0
+PASS|VISUAL_TOGGLES|symbol=EURUSD tf=M15 method=MT5_STANDARD adx_period=14 values=7500 failures=0
+PASS|LIVE_CONFIRM_EMPTY|symbol=EURUSD tf=M15 method=MT5_STANDARD adx_period=14 exact_copies=24 failures=0
+INFO|SUMMARY|OVERALL=PASS passed=40 failed=0 not_tested=0 combinations=10

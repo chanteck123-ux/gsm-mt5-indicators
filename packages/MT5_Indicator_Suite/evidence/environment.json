@@ -1,0 +1,27 @@
+{
+  "packaged_at_utc": "2026-09-08T14:58:32.586296+00:00",
+  "compiler": "MetaEditor 5.0.0.6140",
+  "runtime": "MetaTrader 5.0.0.6182",
+  "indicator_count": 10,
+  "test_data": "Self-created synthetic symbols; no trade or account APIs in test scripts.",
+  "terminal_connection": "May use default server connection; not asserted to be account-free.",
+  "results": {
+    "classic": "OVERALL=PASS | metric_groups=14 | failed_groups=0 | elapsed_ms=187",
+    "zl": "OVERALL=PASS | metric_groups=35 | failed_groups=0 | elapsed_ms=1329",
+    "smc": "OVERALL=PASS | groups=12 | failed_groups=0 | elapsed_ms=3094",
+    "snr": "OVERALL=PASS | metric_groups=17 | failed_groups=0 | elapsed_ms=1953",
+    "snd": "OVERALL=PASS | groups=23 failed=0 elapsed_ms=1734"
+  },
+  "runtime_binary_hashes": {
+    "Bollinger_RSI_ChartArt_MT5": "FCA1FE68EC9E92F69CCD50F23D7822217A30B12F1300CECF7D4F7329436A812C",
+    "SMA_Ribbon_10_MT5": "801DAE5E29750F410AB5B95D95DFC0876E51A775FF971FFBD44F6D9BF18EA32D",
+    "EMA_20_50_100_200_MT5": "977EFC81263BF78EA3D8B73DA860C45CB9E9C759F6067AEB45F535BFBF9CC171",
+    "ZeroLag_MACD_MT5": "1E0A1F6D194735AB4529E7FBFBE719ED4CE15E0452E3FA83A0A763ACD4E9DFDD",
+    "SMC_Structure_MT5": "9A391964D0AEF043ACB21B51C3BC4AE4C6FE1526A349C123F18FCED7486F0BF2",
+    "Volume_Profile_MT5": "083334CC911E53EDF01C691A2A34A20373EBD89D825B1F30A8837D1445E4A642",
+    "GSM_SNR_MT5": "703008E8A93F488D42C1C9ED945A388C24201EB644189738C0989D0F1597738A",
+    "GSM_SND_MT5": "346AD99A150A622B677B08BBC0C4834FB89EE60FF95E8DD78BC07BBD683952A7",
+    "CM_MACD_Ult_MTF_MT5": "7CD0C8375BFF41B72E972953EFD43EC9EA56195D1C98AB5A83AF31FEE612CE1D",
+    "Stoch_RSI_MT5": "A5B7AE063D2436E40EF23E069ECDF9477FD939F1CA2D179CB4940FB0BB35C398"
+  }
+}

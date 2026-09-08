@@ -1,0 +1,32 @@
+{
+  "production_path": "C:\\Users\\A\\Documents\\Codex\\2026-09-08\\created-by-user-chrismoody-updated-4\\outputs\\GSM_ADX_Trend_Meter\\MQL5\\Indicators\\GSM\\GSM_ADX_Trend_Meter.mq5",
+  "production_sha256": "dd9d9843faec00000b9a02ebf039da1373ff7a885061280ad0faf4f7e41b1d96",
+  "test_variant_sha256": "b6563be4787f6402f6909bb690270566fea9c1db8b0bb16e22198d0980814f23",
+  "script_sha256": "19a0023dc50ea05f572ad183e5ad11dc32fa3aef2ef574dd2eba81607f38dab8",
+  "production_modified": false,
+  "replacement_count": 5,
+  "replacements": [
+    {
+      "old": "BarsCalculated(g_handle)",
+      "new": "GSMFaultBarsCalculated(g_handle)"
+    },
+    {
+      "old": "int n0=CopyBuffer(g_handle,0,0,requested,T0);",
+      "new": "int n0=GSMFaultCopyBuffer(g_handle,0,0,requested,T0);"
+    },
+    {
+      "old": "int n1=CopyBuffer(g_handle,1,0,requested,T1);",
+      "new": "int n1=GSMFaultCopyBuffer(g_handle,1,0,requested,T1);"
+    },
+    {
+      "old": "int n2=CopyBuffer(g_handle,2,0,requested,T2);",
+      "new": "int n2=GSMFaultCopyBuffer(g_handle,2,0,requested,T2);"
+    },
+    {
+      "old": "int OnCalculate(const int rates_total,const int prev_calculated,const datetime &time[],const double &open[],",
+      "new": "int GSMProductionOnCalculate(const int rates_total,const int prev_calculated,const datetime &time[],const double &open[],"
+    }
+  ],
+  "appended_block": "GSM_TEST_ONLY_INJECTION_BEGIN/END: two API proxy wrappers and outer OnCalculate diagnostics",
+  "scope": "Controlled API return-count simulation, not a real network disconnect or native API failure"
+}

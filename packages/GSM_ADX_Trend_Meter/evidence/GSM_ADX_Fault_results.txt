@@ -1,0 +1,32 @@
+GSM ADX controlled API return fault injection
+PRODUCTION_SOURCE_SHA256=dd9d9843faec00000b9a02ebf039da1373ff7a885061280ad0faf4f7e41b1d96
+TERMINAL_BUILD=6182
+SCOPE=Instrumented full production code; real iADX/iADXWilder backend; controlled API return-count simulation, not a real network disconnection.
+DELIVERY_CHANNELS=Popup off, Sound off, Push off. Alert master on for production processed-bar path and logs.
+VALUE_COMPARE|WILDER initial baseline|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|BASELINE|GAF_W_78637578|processed=2026.08.03 06:38:00|current=2026.08.03 06:39:00|closed=2026.08.03 06:38:00|mode=0|hit=0|calls=2|need_rebuild=0|ready=1
+PASS|WILDER_initial_real_builtin_baseline|new_failures=0
+READBACK|FAULT_1|GAF_W_78637578|processed=2026.08.03 06:38:00|current=2026.08.03 06:40:00|closed=2026.08.03 06:39:00|mode=1|hit=1|calls=3|need_rebuild=1|ready=0
+PASS|WILDER_third_CopyBuffer_partial_return|new_failures=0
+VALUE_COMPARE|WILDER recovered mode 1|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|RECOVERED_1|GAF_W_78637578|processed=2026.08.03 06:39:00|current=2026.08.03 06:40:00|closed=2026.08.03 06:39:00|mode=0|hit=0|calls=4|need_rebuild=0|ready=1
+PASS|WILDER_same_bar_recovery_after_third_CopyBuffer_partial_return|new_failures=0
+READBACK|FAULT_2|GAF_W_78637578|processed=2026.08.03 06:39:00|current=2026.08.03 06:41:00|closed=2026.08.03 06:40:00|mode=2|hit=2|calls=5|need_rebuild=1|ready=0
+PASS|WILDER_BarsCalculated_not_ready_return|new_failures=0
+VALUE_COMPARE|WILDER recovered mode 2|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|RECOVERED_2|GAF_W_78637578|processed=2026.08.03 06:40:00|current=2026.08.03 06:41:00|closed=2026.08.03 06:40:00|mode=0|hit=0|calls=6|need_rebuild=0|ready=1
+PASS|WILDER_same_bar_recovery_after_BarsCalculated_not_ready_return|new_failures=0
+VALUE_COMPARE|MT5_STANDARD initial baseline|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|BASELINE|GAF_S_78637578|processed=2026.08.03 06:38:00|current=2026.08.03 06:39:00|closed=2026.08.03 06:38:00|mode=0|hit=0|calls=2|need_rebuild=0|ready=1
+PASS|MT5_STANDARD_initial_real_builtin_baseline|new_failures=0
+READBACK|FAULT_1|GAF_S_78637578|processed=2026.08.03 06:38:00|current=2026.08.03 06:40:00|closed=2026.08.03 06:39:00|mode=1|hit=1|calls=3|need_rebuild=1|ready=0
+PASS|MT5_STANDARD_third_CopyBuffer_partial_return|new_failures=0
+VALUE_COMPARE|MT5_STANDARD recovered mode 1|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|RECOVERED_1|GAF_S_78637578|processed=2026.08.03 06:39:00|current=2026.08.03 06:40:00|closed=2026.08.03 06:39:00|mode=0|hit=0|calls=4|need_rebuild=0|ready=1
+PASS|MT5_STANDARD_same_bar_recovery_after_third_CopyBuffer_partial_return|new_failures=0
+READBACK|FAULT_2|GAF_S_78637578|processed=2026.08.03 06:39:00|current=2026.08.03 06:41:00|closed=2026.08.03 06:40:00|mode=2|hit=2|calls=5|need_rebuild=1|ready=0
+PASS|MT5_STANDARD_BarsCalculated_not_ready_return|new_failures=0
+VALUE_COMPARE|MT5_STANDARD recovered mode 2|buffers=15|bars=120|valid=1788|empty=12|max_abs_error=0
+READBACK|RECOVERED_2|GAF_S_78637578|processed=2026.08.03 06:40:00|current=2026.08.03 06:41:00|closed=2026.08.03 06:40:00|mode=0|hit=0|calls=6|need_rebuild=0|ready=1
+PASS|MT5_STANDARD_same_bar_recovery_after_BarsCalculated_not_ready_return|new_failures=0
+OVERALL=PASS|groups=10|passed_groups=10|assertions=11128|failures=0

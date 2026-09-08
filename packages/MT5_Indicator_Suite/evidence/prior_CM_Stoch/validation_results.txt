@@ -1,0 +1,27 @@
+Synthetic indicator validation. No trading or account access. M1 bars=5000; source starts 2026-01-05.
+Reference M1/H1 histories are ready; loading custom indicators.
+Coverage upward_crosses=83 downward_crosses=82 H1_boundaries=49
+Synthetic quote event added=1 error=0
+H1 time series after quote: 84/84
+VISUAL synthetic_only=1 chart_open=1 macd_attached=1 stoch_attached=1 screenshot_requested=1
+PASS | Synthetic data and indicator readiness | samples=1 | failures=0 | max_error=0
+PASS | All public and color_id buffers copied | samples=1 | failures=0 | max_error=0
+PASS | Current TF MACD main equals reference iMACD | samples=4967 | failures=0 | max_error=0
+PASS | Current TF signal equals reference iMACD SMA signal | samples=4967 | failures=0 | max_error=0
+PASS | Current TF histogram equals main minus signal | samples=4967 | failures=0 | max_error=0
+PASS | Histogram and MACD color_id indices | samples=9934 | failures=0 | max_error=0
+PASS | Closed-bar cross directions and dot values | samples=9934 | failures=0 | max_error=0
+PASS | Warmup empty values and no live-bar dot | samples=2134 | failures=0 | max_error=0
+PASS | H1 mapping uses previous completed H1 main and signal | samples=8880 | failures=0 | max_error=0
+PASS | H1 histogram colors use preceding mapped chart bar | samples=2959 | failures=0 | max_error=0
+PASS | H1 confirmed cross direction at mapped chart boundaries | samples=2959 | failures=0 | max_error=0
+PASS | H1 value stays constant inside each source hour | samples=5820 | failures=0 | max_error=0
+PASS | Stoch RSI K versus independent RSI normalization and SMA | samples=4971 | failures=0 | max_error=2.84217094304e-14
+PASS | Stoch RSI D versus independent SMA of K | samples=4969 | failures=0 | max_error=2.84217094304e-14
+PASS | Stoch RSI values bounded 0 to 100 | samples=9940 | failures=0 | max_error=0
+PASS | Flat-price zero RSI range yields zero K and D | samples=9940 | failures=0 | max_error=0
+PASS | Coverage of both cross directions, five histogram states, and H1 boundaries | samples=6 | failures=0 | max_error=0
+PASS | Latest synthetic bar update refreshes MACD and preserves closed bars | samples=4968 | failures=0 | max_error=0
+PASS | Latest synthetic M1 update does not alter confirmed H1 values | samples=2960 | failures=0 | max_error=0
+PASS | Stoch RSI live-bar update and closed-bar stability | samples=9938 | failures=0 | max_error=1.42108547152e-14
+OVERALL=PASS | metric_groups=20 | failed_groups=0 | elapsed_ms=1828

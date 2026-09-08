@@ -1,0 +1,43 @@
+SYNTHETIC M1 INDICATOR VALIDATION ONLY. 5000 bars, no trading performance conclusions.
+COMPARISON synthetic_closed_bars=4399 skipped_initial_bars=600 period=M1 parameters=12/26/9
+CM upward_crosses=75 downward_crosses=75 total_crosses=150 crossings_per_1000_bars=34.098659
+ZL_DEFAULT upward_crosses=77 downward_crosses=77 total_crosses=154 crossings_per_1000_bars=35.007956
+DIRECTION_DISAGREEMENT bars=1160 fraction=0.26369629 percent=26.369629
+These are indicator zero-cross frequencies, not orders, trades, win rates or profit factors.
+VISUAL synthetic_only=1 cm=1 zl=1 screenshot=1
+PASS | Synthetic source and indicator handles | samples=1 | failures=0 | max_error=0
+PASS | Preset DEMA/EMA - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Preset DEMA/EMA - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=0 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=0 - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=1 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=1 - histogram colors and closed crosses | samples=9992 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=2 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=0 sig=2 - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Custom osc=1 sig=0 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=3.69482222595e-13
+PASS | Custom osc=1 sig=0 - histogram colors and closed crosses | samples=9975 | failures=0 | max_error=0
+PASS | Custom osc=1 sig=1 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=3.69482222595e-13
+PASS | Custom osc=1 sig=1 - histogram colors and closed crosses | samples=9967 | failures=0 | max_error=0
+PASS | Custom osc=1 sig=2 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=3.69482222595e-13
+PASS | Custom osc=1 sig=2 - histogram colors and closed crosses | samples=9975 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=0 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=0 - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=1 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=1 - histogram colors and closed crosses | samples=9992 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=2 - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Custom osc=2 sig=2 - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Length one and equality histogram - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Length one and equality histogram - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Insufficient SMA signal history - independent MA formula/warmup | samples=15000 | failures=0 | max_error=3.69482222595e-13
+PASS | Insufficient SMA signal history - histogram colors and closed crosses | samples=5000 | failures=0 | max_error=0
+PASS | Reversed fast and slow lengths - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Reversed fast and slow lengths - histogram colors and closed crosses | samples=9992 | failures=0 | max_error=0
+PASS | Typical price source - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Typical price source - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | CM vs Custom EMA/SMA on same M1 source after 600 bars | samples=13197 | failures=0 | max_error=5.68434188608e-14
+PASS | Latest-bar quote update and closed-bar stability | samples=5000 | failures=0 | max_error=0
+PASS | Recomputed preset after latest tick - independent MA formula/warmup | samples=15000 | failures=0 | max_error=0
+PASS | Recomputed preset after latest tick - histogram colors and closed crosses | samples=10000 | failures=0 | max_error=0
+PASS | Recomputed SMA/SMA after latest tick - independent MA formula/warmup | samples=15000 | failures=0 | max_error=3.69482222595e-13
+PASS | Recomputed SMA/SMA after latest tick - histogram colors and closed crosses | samples=9967 | failures=0 | max_error=0
+OVERALL=PASS | metric_groups=35 | failed_groups=0 | elapsed_ms=1329

@@ -1,0 +1,6 @@
+PASS|GSM_ADX_GOLD_M5|native 3 DRAW_LINE; widths2/1/1; levels20/25/40; no trade-history objects; image visually reviewed
+PASS|GSM_ADX_GOLD_M15|native 3 DRAW_LINE; widths2/1/1; levels20/25/40; no trade-history objects; image visually reviewed
+PASS|GSM_ADX_GOLD_H1|native 3 DRAW_LINE; widths2/1/1; levels20/25/40; no trade-history objects; image visually reviewed
+PASS|GSM_ADX_GOLD_H4|native 3 DRAW_LINE; widths2/1/1; levels20/25/40; no trade-history objects; image visually reviewed
+PASS|GSM_ADX_Second_EURUSD_M15|native 3 DRAW_LINE; widths2/1/1; levels20/25/40; no trade-history objects; image visually reviewed
+PASS|Native journal within final GOLD load/switch and EURUSD load stages: zero historical alert dispatches

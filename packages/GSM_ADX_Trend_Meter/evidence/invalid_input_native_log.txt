@@ -1,0 +1,5 @@
+DE	0	00:14:10.017	GSM_ADX_Trend_Meter (ADX_ZERO_378430968,M1)	GSM ADX 初始化失败：DI 最少交叉次数必须在 1 与比较窗口之间。
+NO	0	00:14:10.018	GSM_ADX_Trend_Meter (ADX_ZERO_378430968,M1)	GSM ADX 初始化失败：根数与比较窗口必须为合法正整数，并留出进入状态的额外回看空间。
+IH	0	00:14:10.019	GSM_ADX_Trend_Meter (ADX_ZERO_378430968,M1)	GSM ADX 初始化失败：ADX 变化容差必须为有限非负数。
+LP	0	00:14:10.021	GSM_ADX_Trend_Meter (ADX_ZERO_378430968,M1)	GSM ADX 初始化失败：阈值必须满足 0 < 弱势线 < 趋势线 < 很强线 < 100。
+CG	0	00:14:10.022	GSM_ADX_Trend_Meter (ADX_ZERO_378430968,M1)	GSM ADX 初始化失败：ADX 周期必须为 2～1073741822；过大的周期可能因平台资源限制无法创建。

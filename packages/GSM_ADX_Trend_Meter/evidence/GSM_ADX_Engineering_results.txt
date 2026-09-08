@@ -1,0 +1,75 @@
+SYNTHETIC_ONLY|Fixed M1 OHLC from 2026-03-02; no broker-gold claim, no orders, no account APIs.
+ENVIRONMENT|terminal_build=6182 run=2026.09.09 00:13:48 suffix=378430968
+PASS|FIXTURE|method=0 full=ADX_F0_378430968 prefix=ADX_P0_378430968
+STAGE|INITIAL_LOAD_BEGIN|method=0 symbol=ADX_P0_378430968
+PASS|INITIAL_LOAD|method=0
+STAGE|INITIAL_LOAD_END|method=0 symbol=ADX_P0_378430968
+PASS|INITIAL_PREFIX|method=0 values=1185 failures=0
+PASS|SYNTHETIC_BUILTIN|method=0 period=14 values=777 failures=0 max_error=0
+STAGE|REPLAY_BEGIN|method=0 symbol=ADX_P0_378430968 from_count=80 to_count=200
+REPLAY_PROGRESS|method=0 count=100 values=26850 failures=0
+REPLAY_PROGRESS|method=0 count=120 values=59700 failures=0
+REPLAY_PROGRESS|method=0 count=140 values=98550 failures=0
+REPLAY_PROGRESS|method=0 count=160 values=143400 failures=0
+REPLAY_PROGRESS|method=0 count=180 values=194250 failures=0
+REPLAY_PROGRESS|method=0 count=200 values=251100 failures=0
+STAGE|REPLAY_END|method=0 symbol=ADX_P0_378430968
+PASS|BAR_BY_BAR_SAME_START|method=0 steps=120 values=251100 failures=0
+PASS|EVERY_STEP_CURRENT_CONFIRMED_EMPTY|method=0 steps=120 checks=1440
+STAGE|SAME_BAR_QUOTES_BEGIN|method=0 symbol=ADX_P0_378430968 count=200
+STAGE|SAME_BAR_QUOTES_END|method=0 symbol=ADX_P0_378430968
+PASS|CURRENT_OHLC_OLD_HANDLE_STABLE|method=0 repeats=8 failures=0 old_handle=11 live_raw_changes=24
+PASS|FUTURE_PERTURBATION|method=0 past_values=3000 failures=0 future_start=200
+PASS|HIDDEN_AND_ALERT_MASTER|method=0 values=4485 failures=0
+PASS|PERIOD_PARAMETER_CHANGE|method=0 period=10 values=801 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=0 period=2 values=849 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=0 period=7 values=819 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=0 period=30 values=681 failures=0 max_error=0
+PASS|CHANGED_THRESHOLDS|method=0 values=1494 failures=0 levels=15/22/35
+PASS|DEEPER_HISTORY_REBUILD|method=0 same_final_origin_values=4485 failures=0
+PASS|FIXTURE|method=1 full=ADX_F1_378430968 prefix=ADX_P1_378430968
+STAGE|INITIAL_LOAD_BEGIN|method=1 symbol=ADX_P1_378430968
+PASS|INITIAL_LOAD|method=1
+STAGE|INITIAL_LOAD_END|method=1 symbol=ADX_P1_378430968
+PASS|INITIAL_PREFIX|method=1 values=1185 failures=0
+PASS|SYNTHETIC_BUILTIN|method=1 period=14 values=777 failures=0 max_error=0
+STAGE|REPLAY_BEGIN|method=1 symbol=ADX_P1_378430968 from_count=80 to_count=200
+REPLAY_PROGRESS|method=1 count=100 values=26850 failures=0
+REPLAY_PROGRESS|method=1 count=120 values=59700 failures=0
+REPLAY_PROGRESS|method=1 count=140 values=98550 failures=0
+REPLAY_PROGRESS|method=1 count=160 values=143400 failures=0
+REPLAY_PROGRESS|method=1 count=180 values=194250 failures=0
+REPLAY_PROGRESS|method=1 count=200 values=251100 failures=0
+STAGE|REPLAY_END|method=1 symbol=ADX_P1_378430968
+PASS|BAR_BY_BAR_SAME_START|method=1 steps=120 values=251100 failures=0
+PASS|EVERY_STEP_CURRENT_CONFIRMED_EMPTY|method=1 steps=120 checks=1440
+STAGE|SAME_BAR_QUOTES_BEGIN|method=1 symbol=ADX_P1_378430968 count=200
+STAGE|SAME_BAR_QUOTES_END|method=1 symbol=ADX_P1_378430968
+PASS|CURRENT_OHLC_OLD_HANDLE_STABLE|method=1 repeats=8 failures=0 old_handle=11 live_raw_changes=16
+PASS|FUTURE_PERTURBATION|method=1 past_values=3000 failures=0 future_start=200
+PASS|HIDDEN_AND_ALERT_MASTER|method=1 values=4485 failures=0
+PASS|PERIOD_PARAMETER_CHANGE|method=1 period=10 values=801 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=1 period=2 values=849 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=1 period=7 values=819 failures=0 max_error=0
+PASS|EXPLICIT_PERIOD_PARAMETER|method=1 period=30 values=681 failures=0 max_error=0
+PASS|CHANGED_THRESHOLDS|method=1 values=1494 failures=0 levels=15/22/35
+PASS|DEEPER_HISTORY_REBUILD|method=1 same_final_origin_values=4485 failures=0
+PASS|ZERO_FIXTURE|
+PASS|WARMUP_AND_VALID_ZERO|method=0 warmup_values=58 valid_zero_values=147 failures=0
+PASS|WARMUP_AND_VALID_ZERO|method=1 warmup_values=56 valid_zero_values=147 failures=0
+INVALID_INIT_PROBE|case=0 handle=10 calculated=0; root must corroborate all five Chinese OnInit failures in native log
+INVALID_INIT_PROBE|case=1 handle=11 calculated=0; root must corroborate all five Chinese OnInit failures in native log
+INVALID_INIT_PROBE|case=2 handle=12 calculated=0; root must corroborate all five Chinese OnInit failures in native log
+INVALID_INIT_PROBE|case=3 handle=13 calculated=0; root must corroborate all five Chinese OnInit failures in native log
+INVALID_INIT_PROBE|case=4 handle=14 calculated=0; root must corroborate all five Chinese OnInit failures in native log
+PASS|INVALID_INPUT_REJECTION|cases=5 rejected=5
+PASS|NATIVE_MULTI_INSTANCE_PANEL|saved=1 applied=1 panels=2 subwindows=1
+VISUAL_TEMPLATE|GSM_ADX_engineering.tpl|Root must inspect native saved level properties 20/25/40 and screenshot separately.
+PASS|NATIVE_MARKERS_CLOSED|
+SCREENSHOT file=GSM_ADX_engineering_chart.png canvas=2716x573 windows=2
+PASS|NATIVE_SCREENSHOT_CREATED|
+PASS|REMOVE_ONE_PRESERVES_OTHER|remaining_panels=1 sentinel=1
+PASS|UNLOAD_OWN_OBJECT_CLEANUP|remaining_owned_objects=0 sentinel=1
+NOT_TESTED|REAL_DISCONNECT|No network disconnect was performed; quote-driven custom-history refresh is not a network recovery test.
+NOT_TESTED|NOTIFICATION_DELIVERY|All popup, sound and push channels disabled. Review STAGE and GSM_ADX_ALERT_CONFIRMED logs separately for local deduplication.
+OVERALL=PASS_ENGINEERING_SCOPE groups=39 failed=0 elapsed_ms=25422

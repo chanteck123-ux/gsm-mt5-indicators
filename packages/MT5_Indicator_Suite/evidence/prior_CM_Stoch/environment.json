@@ -1,0 +1,10 @@
+{
+  "CompilerVersion": "5.0.0.6140",
+  "RuntimeVersion": "5.0.0.6182",
+  "Validation": "20/20 groups passed",
+  "NumericOrConditionChecks": 105215,
+  "SyntheticM1Bars": 5000,
+  "PackagedAt": "2026-09-08T20:36:40.9918589+08:00",
+  "ScriptUsesAccountOrTradeAPIs": false,
+  "RuntimeConnectionNote": "Synthetic symbols supplied all tested data. Terminal may connect using default server settings; no trade was placed by the validation scripts."
+}

@@ -1,0 +1,36 @@
+{
+  "run_dates_local": [
+    "2026-09-08",
+    "2026-09-09"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "compiler_build": 6140,
+  "synthetic_runtime_build": 6182,
+  "broker_runtime_build": 6140,
+  "broker": "FxPro-MT5 Demo",
+  "symbols": [
+    "GOLD",
+    "EURUSD"
+  ],
+  "production_files": [
+    {
+      "indicator": "ADX",
+      "source_sha256": "dd9d9843faec00000b9a02ebf039da1373ff7a885061280ad0faf4f7e41b1d96",
+      "ex5_sha256": "799e756e87abb9471496950c64744799fc894f1b4b7f5a107a88ac9a389eead2",
+      "runtime_ex5_matches_delivery": true
+    },
+    {
+      "indicator": "ATR",
+      "source_sha256": "66d52bd48563f013736b1118c800bc27d41ac331a6e0b64f0b74aed57fdb9779",
+      "ex5_sha256": "d316258cbcf21c949db5ea8ad323fd0a1f711755d086423e47788af0fce32f32",
+      "runtime_ex5_matches_delivery": true
+    },
+    {
+      "indicator": "VFI",
+      "source_sha256": "a44356cdddf4f9eacc625fbf65995cd84b33695954eb0e97e0c80a14b612ac0e",
+      "ex5_sha256": "567d075f86a5a8798a766b7f0747d710300c8f5172f2e8ed3394ce0e589db9aa",
+      "runtime_ex5_matches_delivery": true
+    }
+  ],
+  "test_scope": "See individual reports; no order or account API in indicator/test code; terminal may connect to server"
+}

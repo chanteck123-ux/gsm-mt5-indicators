@@ -1,0 +1,23 @@
+GSM ADX production-core native MQL5 rule tests
+RULE_BLOCK_SHA256=c786f48530d353be40167b504b6036d133af8de98b89c84b0f1eda019c615a82
+TERMINAL_BUILD=6182
+SOURCE=hand-authored ADX/DI vectors and fixed 256-bar causal fixture; no account or order API calls.
+PASS|C01_market_state_exact_20_25_40|new_failures=0
+PASS|C02_two_threshold_events_same_bar|new_failures=0
+PASS|C03_high_and_rising_is_not_turn_down|new_failures=0
+PASS|C04_high_turn_confirm_bar_and_no_repeat|new_failures=0
+PASS|Custom_reference_thresholds_drive_states_and_events|new_failures=0
+PASS|C05_bull_and_bear_DI_cross_with_rising_ADX|new_failures=0
+PASS|C06_DI_cross_while_ADX_falls_or_is_flat|new_failures=0
+PASS|C07_optional_minimum_ADX_filter|new_failures=0
+PASS|C08_confirm_and_rising_first_entry_sample_boundaries|new_failures=0
+PASS|C09_raw_DI_choppy_equality_lookback_and_no_entanglement|new_failures=0
+PASS|LongLow_entry_strict_threshold_and_extra_history|new_failures=0
+PASS|C10_warmup_EMPTY_insufficient_samples_and_valid_zero|new_failures=0
+PASS|SlopeEpsilon_strict_comparisons_and_inclusive_prior_turn|new_failures=0
+SCOPE|C11 above is production pure-rule shift-0 testing; native terminal live-buffer publication is tested separately.
+PASS|C11_core_shift_zero_never_publishes_confirmed_outputs|new_failures=0
+PASS|Causal_prefix_replay_versus_full_history_all_12_outputs|new_failures=0
+PASS|Future_perturbation_cannot_change_closed_historical_outputs|new_failures=0
+SCOPE|C12 visual/alert switches and full iCustom publication are tested by native integration scripts, not inferred from this pure-rule test.
+OVERALL=PASS|groups=16|passed_groups=16|assertions=6494|failures=0

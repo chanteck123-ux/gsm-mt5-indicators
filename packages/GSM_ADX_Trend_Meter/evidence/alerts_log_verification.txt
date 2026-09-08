@@ -1,0 +1,6 @@
+PASS|Initial load and unfinished bar: zero production alert lines
+PASS|New bar: exactly one merged alert containing both expected threshold events
+PASS|Signal symbol/time/values and Chinese event message present
+PASS|Twelve further ticks in same bar: no duplicate alert
+NOT_TESTED|External popup/sound/push delivery: all channels disabled
+SYMBOL=AQT_8742703

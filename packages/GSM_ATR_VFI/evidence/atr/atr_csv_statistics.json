@@ -1,0 +1,60 @@
+{
+  "source": "Saty_ATR_validation_values.csv",
+  "total_rows": 12528,
+  "groups": {
+    "DAY/PREVIOUS": {
+      "rows": 5904,
+      "finite_pairs": 4104,
+      "empty_pairs": 1800,
+      "mismatches": 0,
+      "max_abs_error": "0",
+      "first": "2026.01.05 00:00:00",
+      "last": "2026.02.09 18:00:00"
+    },
+    "DAY/CURRENT": {
+      "rows": 5904,
+      "finite_pairs": 4240,
+      "empty_pairs": 1664,
+      "mismatches": 0,
+      "max_abs_error": "2.9E-14",
+      "first": "2026.01.05 00:00:00",
+      "last": "2026.02.09 18:00:00"
+    },
+    "WEEKLY/PREVIOUS_RMA3": {
+      "rows": 144,
+      "finite_pairs": 36,
+      "empty_pairs": 108,
+      "mismatches": 0,
+      "max_abs_error": "0",
+      "first": "2026.01.05 00:00:00",
+      "last": "2026.02.09 18:00:00"
+    },
+    "CALENDAR/2": {
+      "rows": 192,
+      "finite_pairs": 178,
+      "empty_pairs": 14,
+      "mismatches": 0,
+      "max_abs_error": "1E-15",
+      "first": "2000.01.01",
+      "last": "2015.12.01"
+    },
+    "CALENDAR/3": {
+      "rows": 192,
+      "finite_pairs": 150,
+      "empty_pairs": 42,
+      "mismatches": 0,
+      "max_abs_error": "2E-15",
+      "first": "2000.01.01",
+      "last": "2015.12.01"
+    },
+    "CALENDAR/4": {
+      "rows": 192,
+      "finite_pairs": 24,
+      "empty_pairs": 168,
+      "mismatches": 0,
+      "max_abs_error": "2E-15",
+      "first": "2000.01.01",
+      "last": "2015.12.01"
+    }
+  }
+}

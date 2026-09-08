@@ -1,0 +1,19 @@
+KS	0	00:25:04.930	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_LOAD_BEGIN|chart=42489588035645 tf=M5 expected_historical_alerts=0 current_bar=2026.09.08 19:25
+RS	0	00:25:04.954	GSM_ADX_Trend_Meter (GOLD,M5)	GSM_ADX_INIT | GOLD M5 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42489585140177_1_
+EH	0	00:25:05.373	GSM_ADX_Trend_Meter (GOLD,M5)	GSM_ADX_INIT | GOLD M5 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42489588035645_2_
+RJ	0	00:25:09.543	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_LOAD_END|chart=42489588035645 tf=M5 prefix=GSM_ADX_42489588035645_2_ expected_historical_alerts=0
+GJ	0	00:25:09.543	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=M15 expected_historical_alerts=0 current_bar=2026.09.08 19:15
+IO	0	00:25:10.037	GSM_ADX_Trend_Meter (GOLD,M15)	GSM_ADX_INIT | GOLD M15 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42489588035645_3_
+KD	0	00:25:14.252	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_LOAD_END|chart=42489588035645 tf=M15 prefix=GSM_ADX_42489588035645_3_ expected_historical_alerts=0
+IL	0	00:25:14.288	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=H1 expected_historical_alerts=0 current_bar=2026.09.08 19:00
+OS	0	00:25:15.312	GSM_ADX_Trend_Meter (GOLD,H1)	GSM_ADX_INIT | GOLD H1 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42489588035645_4_
+EQ	0	00:25:19.481	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_LOAD_END|chart=42489588035645 tf=H1 prefix=GSM_ADX_42489588035645_4_ expected_historical_alerts=0
+CR	0	00:25:19.533	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=H4 expected_historical_alerts=0 current_bar=2026.09.08 16:00
+ME	0	00:25:19.582	GSM_ADX_Trend_Meter (GOLD,H4)	GSM_ADX_INIT | GOLD H4 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42489588035645_5_
+IS	0	00:25:23.743	GSM_ADX_GOLD_Visual (GOLD,M15)	PHASE|REAL_LOAD_END|chart=42489588035645 tf=H4 prefix=GSM_ADX_42489588035645_5_ expected_historical_alerts=0
+PO	0	00:25:24.079	GSM_ADX_GOLD_Visual (GOLD,M15)	PASS|REAL_FINAL_UNLOAD_CLEANUP|remaining=0
+LO	0	00:26:42.608	GSM_ADX_Second_Visual (GOLD,M15)	PHASE|SECOND_LOAD_BEGIN|chart=42490565049590 symbol=EURUSD tf=M15 expected_historical_alerts=0 current_bar=2026.09.08 19:15
+CS	0	00:26:42.631	GSM_ADX_Trend_Meter (EURUSD,M15)	GSM_ADX_INIT | EURUSD M15 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42490562611030_1_
+GE	0	00:26:43.049	GSM_ADX_Trend_Meter (EURUSD,M15)	GSM_ADX_INIT | EURUSD M15 | method=0 period=14 | ADX_begin=28 DI_begin=15 | alerts=true | instance=GSM_ADX_42490565049590_2_
+LK	0	00:26:47.226	GSM_ADX_Second_Visual (GOLD,M15)	PHASE|SECOND_LOAD_END|chart=42490565049590 symbol=EURUSD tf=M15 expected_historical_alerts=0
+FK	0	00:26:47.546	GSM_ADX_Second_Visual (GOLD,M15)	PASS|SECOND_FINAL_CLEANUP|

@@ -1,0 +1,47 @@
+INFO|PINE_TEST|synthetic M1 custom symbols; native terminal executable; all external delivery channels disabled
+INFO|ORACLE|independent supplied recurrence + fresh scan of last N valid DX per bar; tolerance1e-8; all15 consistency exact
+PASS|PINE_FIXTURES|period=14
+PASS|PINE_READY|period=14
+PASS|PINE_INDEPENDENT_FORMULA|period=14 samples=180 values=540 failures=0 max_abs_error=5.6843418860808015e-14 from=2026.06.01 00:00 to=2026.06.01 02:59
+PASS|PINE_PREFIX_ALL15_EXACT|period=14 values=1185 failures=0
+PASS|PINE_FUTURE_PERTURB_ALL15_EXACT|period=14 values=1185 failures=0
+PASS|PINE_VISUAL_ALERT_SWITCHES_ALL15|period=14 values=2685 failures=0
+PASS|PINE_APPEND_EVERY_BAR_ALL15_EXACT|period=14 replay_steps=100 values=194250
+PASS|PINE_CURRENT_OHLC_CLOSED15_UNCHANGED|period=14 mutations=4 last_values=2685
+PASS|PINE_FIXTURES|period=2
+PASS|PINE_READY|period=2
+PASS|PINE_INDEPENDENT_FORMULA|period=2 samples=180 values=540 failures=0 max_abs_error=2.8421709430404007e-14 from=2026.06.01 00:00 to=2026.06.01 02:59
+PASS|PINE_PREFIX_ALL15_EXACT|period=2 values=1185 failures=0
+PASS|PINE_FUTURE_PERTURB_ALL15_EXACT|period=2 values=1185 failures=0
+PASS|PINE_VISUAL_ALERT_SWITCHES_ALL15|period=2 values=2685 failures=0
+PASS|PINE_APPEND_EVERY_BAR_ALL15_EXACT|period=2 replay_steps=100 values=194250
+PASS|PINE_CURRENT_OHLC_CLOSED15_UNCHANGED|period=2 mutations=4 last_values=2685
+PASS|PINE_FIXTURES|period=7
+PASS|PINE_READY|period=7
+PASS|PINE_INDEPENDENT_FORMULA|period=7 samples=180 values=540 failures=0 max_abs_error=7.1054273576010019e-14 from=2026.06.01 00:00 to=2026.06.01 02:59
+PASS|PINE_PREFIX_ALL15_EXACT|period=7 values=1185 failures=0
+PASS|PINE_FUTURE_PERTURB_ALL15_EXACT|period=7 values=1185 failures=0
+PASS|PINE_VISUAL_ALERT_SWITCHES_ALL15|period=7 values=2685 failures=0
+PASS|PINE_APPEND_EVERY_BAR_ALL15_EXACT|period=7 replay_steps=100 values=194250
+PASS|PINE_CURRENT_OHLC_CLOSED15_UNCHANGED|period=7 mutations=4 last_values=2685
+PASS|PINE_FIXTURES|period=30
+PASS|PINE_READY|period=30
+PASS|PINE_INDEPENDENT_FORMULA|period=30 samples=180 values=540 failures=0 max_abs_error=2.8421709430404007e-14 from=2026.06.01 00:00 to=2026.06.01 02:59
+PASS|PINE_PREFIX_ALL15_EXACT|period=30 values=1185 failures=0
+PASS|PINE_FUTURE_PERTURB_ALL15_EXACT|period=30 values=1185 failures=0
+PASS|PINE_VISUAL_ALERT_SWITCHES_ALL15|period=30 values=2685 failures=0
+PASS|PINE_APPEND_EVERY_BAR_ALL15_EXACT|period=30 replay_steps=100 values=194250
+PASS|PINE_CURRENT_OHLC_CLOSED15_UNCHANGED|period=30 mutations=4 last_values=2685
+PASS|PINE_EDGE_FIXTURE_FLAT|
+PASS|PINE_EDGE_FORMULA_FLAT| period=14 samples=80 values=240 failures=0 max=0
+PASS|PINE_FLAT_POSITIVE_SEED_IS_100|first high/low/close=100; prior OHLC=0; first TR=100; first +DM=100; no false zero warm-up
+PASS|PINE_EDGE_FIXTURE_NADX|
+PASS|PINE_EDGE_FORMULA_NADX| period=14 samples=80 values=240 failures=0 max=0
+PASS|PINE_ZERO_DI_SUM_DX_UNAVAILABLE|valid nonzero TR; +DI=-DI=0 are valid; DX 0/0 and ADX are EMPTY
+PASS|PINE_EDGE_FIXTURE_ZERO|
+PASS|PINE_EDGE_FORMULA_ZERO| period=2 samples=40 values=120 failures=0 max=0
+PASS|PINE_VALID_ZERO_ADX_PRESERVED|period2; first DX100 then two DX0 with valid positive DI denominator; ADX0 is valid weak state
+PASS|PINE_EDGE_FIXTURE_GAPS|
+PASS|PINE_EDGE_FORMULA_GAPS| period=2 samples=1300 values=3900 failures=0 max=0
+NOT_TESTED|PINE_SMA_POST_WARMUP_NA_TRANSITION|This native finite-OHLC fixture retained subnormal smTR; no post-warmup DX gap occurred. Long flat numeric oracle comparison is reported separately.
+OVERALL=PASS groups=43 passed=43 failed=0 not_tested=1 elapsed_ms=25093

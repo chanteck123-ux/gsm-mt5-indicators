@@ -1,0 +1,28 @@
+GSM S&D synthetic fixture. Thresholds are engineering choices; this is not a strategy backtest.
+RUN_SYMBOLS CODEX_SND_W_372813109 CODEX_SND_B_372813109 CODEX_SND_I_372813109 CODEX_SND_P_372813109
+PASS | Synthetic source data
+PASS | Compiled indicator handles ready
+PASS | Long upper wick creates supply only after candle close
+PASS | Upper-wick zone bounds and >30pt midpoint
+PASS | Point-size override changes small-zone reference to proximal boundary
+PASS | Supply first visit recorded once; midpoint not reached
+PASS | Supply second visit is retouch; no renewed first or midpoint eligibility
+PASS | Narrow zone reference fires only during first visit
+PASS | Supply invalidation takes priority over same-bar touch
+PASS | Long lower wick creates demand and midpoint
+PASS | Demand first, later retouch, invalidation lifecycle
+PASS | Bullish base break: prior base bounds, no pre-break formation
+PASS | Bearish base break creates supply
+PASS | Bullish impulse confirmed only after minimum run; origin bounds
+PASS | Bearish impulse creates one supply zone for continuing run
+PASS | Live forming long-wick candle has no event or future zone
+PASS | Incremental append preserves all previously closed buffers
+PASS | First close reveals zone; incremental equals independent full-history instance
+PASS | All event buffers zero on current candle
+VISUAL template saved=1 applied=1 target_objects=24
+PASS | Two native chart instances own separate object prefixes and zone drawings
+PASS | Sub-symbol-digit pt unit displayed accurately
+PASS | Bounded drawings on target chart, causal rectangle left edges
+PASS | Actual MT5 target-chart screenshot saved
+VISUAL chart=42426674059729 owners=2 rectangles=8 canvas=2716x575
+OVERALL=PASS | groups=23 failed=0 elapsed_ms=1734

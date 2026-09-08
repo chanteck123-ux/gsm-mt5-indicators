@@ -1,0 +1,62 @@
+INFO|REAL_GOLD_NATIVE_UI|Same chart native M5/M15/H1/H4 switch; default Wilder14; EnableAlerts=true with all three external channels=false.
+PASS|BROKER_GOLD_NOT_CUSTOM|symbol=GOLD; no replacement or synthetic fallback
+CACHED_HISTORY|symbol=GOLD tf=M5 bars=100000 oldest=2025.04.10 05:25 latest=2026.09.08 19:20
+CACHED_HISTORY|symbol=GOLD tf=M15 bars=100000 oldest=2022.06.15 20:45 latest=2026.09.08 19:15
+CACHED_HISTORY|symbol=GOLD tf=H1 bars=27877 oldest=2022.01.03 00:00 latest=2026.09.08 19:00
+CACHED_HISTORY|symbol=GOLD tf=H4 bars=7245 oldest=2022.01.03 00:00 latest=2026.09.08 16:00
+PASS|OWN_REAL_CHART|chart=42489588035645 host=42489585140177
+PASS|OWN_CHART_TRADE_DECORATIONS_OFF|
+PHASE|REAL_LOAD_BEGIN|chart=42489588035645 tf=M5 expected_historical_alerts=0 current_bar=2026.09.08 19:25
+PASS|REAL_NATIVE_TEMPLATE_APPLIED|bootstrap=GSM_ADX_GOLD_bootstrap.tpl
+PASS|REAL_NATIVE_PANEL_READY|tf=M5
+PASS|REAL_CURVES_AND_CLOSED_INTERFACE|tf=M5 native_shortname=GSM ADX 趋势强弱测量器 [ADX Wilder 14 #2] lines=3 current_confirmed_empty=12
+PASS|REAL_CHINESE_PANEL|tf=M5 prefix=GSM_ADX_42489588035645_2_ 算法：ADX Wilder    参数：14 数据：最近已收盘K线
+PASS|REAL_RECENT_BUFFER_CSV|tf=M5 rows=50 buffers=15
+PASS|REAL_TRADE_DECORATIONS_ABSENT|tf=M5
+PASS|REAL_NATIVE_TEMPLATE_SAVED|tf=M5 template=GSM_ADX_GOLD_M5.tpl
+NATIVE_SCREENSHOT|file=GSM_ADX_GOLD_M5.png|chart=42489588035645|size=2703x573|windows=2
+PASS|REAL_NATIVE_SCREENSHOT|tf=M5 image=GSM_ADX_GOLD_M5.png
+TEMPLATE_AND_IMAGE_REVIEW_REQUIRED|GSM_ADX_GOLD_M5.tpl|Confirm native 3 DRAW_LINE plots, ADX/PlusDI/MinusDI, default colors/widths, and horizontal levels 20/25/40; screenshot must be visually inspected.
+PHASE|REAL_LOAD_END|chart=42489588035645 tf=M5 prefix=GSM_ADX_42489588035645_2_ expected_historical_alerts=0
+PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=M15 expected_historical_alerts=0 current_bar=2026.09.08 19:15
+PASS|REAL_SAME_CHART_TIMEFRAME_SWITCH|chart=42489588035645 from=M5 to=M15
+PASS|REAL_NATIVE_PANEL_READY|tf=M15
+PASS|OLD_TIMEFRAME_OBJECTS_CLEANED|tf=M15
+PASS|REAL_CURVES_AND_CLOSED_INTERFACE|tf=M15 native_shortname=GSM ADX 趋势强弱测量器 [ADX Wilder 14 #3] lines=3 current_confirmed_empty=12
+PASS|REAL_CHINESE_PANEL|tf=M15 prefix=GSM_ADX_42489588035645_3_ 算法：ADX Wilder    参数：14 数据：最近已收盘K线
+PASS|REAL_RECENT_BUFFER_CSV|tf=M15 rows=50 buffers=15
+PASS|REAL_TRADE_DECORATIONS_ABSENT|tf=M15
+PASS|REAL_NATIVE_TEMPLATE_SAVED|tf=M15 template=GSM_ADX_GOLD_M15.tpl
+NATIVE_SCREENSHOT|file=GSM_ADX_GOLD_M15.png|chart=42489588035645|size=2703x573|windows=2
+PASS|REAL_NATIVE_SCREENSHOT|tf=M15 image=GSM_ADX_GOLD_M15.png
+TEMPLATE_AND_IMAGE_REVIEW_REQUIRED|GSM_ADX_GOLD_M15.tpl|Confirm native 3 DRAW_LINE plots, ADX/PlusDI/MinusDI, default colors/widths, and horizontal levels 20/25/40; screenshot must be visually inspected.
+PHASE|REAL_LOAD_END|chart=42489588035645 tf=M15 prefix=GSM_ADX_42489588035645_3_ expected_historical_alerts=0
+PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=H1 expected_historical_alerts=0 current_bar=2026.09.08 19:00
+PASS|REAL_SAME_CHART_TIMEFRAME_SWITCH|chart=42489588035645 from=M15 to=H1
+PASS|REAL_NATIVE_PANEL_READY|tf=H1
+PASS|OLD_TIMEFRAME_OBJECTS_CLEANED|tf=H1
+PASS|REAL_CURVES_AND_CLOSED_INTERFACE|tf=H1 native_shortname=GSM ADX 趋势强弱测量器 [ADX Wilder 14 #4] lines=3 current_confirmed_empty=12
+PASS|REAL_CHINESE_PANEL|tf=H1 prefix=GSM_ADX_42489588035645_4_ 算法：ADX Wilder    参数：14 数据：最近已收盘K线
+PASS|REAL_RECENT_BUFFER_CSV|tf=H1 rows=50 buffers=15
+PASS|REAL_TRADE_DECORATIONS_ABSENT|tf=H1
+PASS|REAL_NATIVE_TEMPLATE_SAVED|tf=H1 template=GSM_ADX_GOLD_H1.tpl
+NATIVE_SCREENSHOT|file=GSM_ADX_GOLD_H1.png|chart=42489588035645|size=2703x573|windows=2
+PASS|REAL_NATIVE_SCREENSHOT|tf=H1 image=GSM_ADX_GOLD_H1.png
+TEMPLATE_AND_IMAGE_REVIEW_REQUIRED|GSM_ADX_GOLD_H1.tpl|Confirm native 3 DRAW_LINE plots, ADX/PlusDI/MinusDI, default colors/widths, and horizontal levels 20/25/40; screenshot must be visually inspected.
+PHASE|REAL_LOAD_END|chart=42489588035645 tf=H1 prefix=GSM_ADX_42489588035645_4_ expected_historical_alerts=0
+PHASE|REAL_TIMEFRAME_SWITCH_BEGIN|chart=42489588035645 tf=H4 expected_historical_alerts=0 current_bar=2026.09.08 16:00
+PASS|REAL_SAME_CHART_TIMEFRAME_SWITCH|chart=42489588035645 from=H1 to=H4
+PASS|REAL_NATIVE_PANEL_READY|tf=H4
+PASS|OLD_TIMEFRAME_OBJECTS_CLEANED|tf=H4
+PASS|REAL_CURVES_AND_CLOSED_INTERFACE|tf=H4 native_shortname=GSM ADX 趋势强弱测量器 [ADX Wilder 14 #5] lines=3 current_confirmed_empty=12
+PASS|REAL_CHINESE_PANEL|tf=H4 prefix=GSM_ADX_42489588035645_5_ 算法：ADX Wilder    参数：14 数据：最近已收盘K线
+PASS|REAL_RECENT_BUFFER_CSV|tf=H4 rows=50 buffers=15
+PASS|REAL_TRADE_DECORATIONS_ABSENT|tf=H4
+PASS|REAL_NATIVE_TEMPLATE_SAVED|tf=H4 template=GSM_ADX_GOLD_H4.tpl
+NATIVE_SCREENSHOT|file=GSM_ADX_GOLD_H4.png|chart=42489588035645|size=2703x573|windows=2
+PASS|REAL_NATIVE_SCREENSHOT|tf=H4 image=GSM_ADX_GOLD_H4.png
+TEMPLATE_AND_IMAGE_REVIEW_REQUIRED|GSM_ADX_GOLD_H4.tpl|Confirm native 3 DRAW_LINE plots, ADX/PlusDI/MinusDI, default colors/widths, and horizontal levels 20/25/40; screenshot must be visually inspected.
+PHASE|REAL_LOAD_END|chart=42489588035645 tf=H4 prefix=GSM_ADX_42489588035645_5_ expected_historical_alerts=0
+PASS|REAL_FINAL_UNLOAD_CLEANUP|remaining=0
+JOURNAL_REVIEW_REQUIRED|No historical GSM_ADX_ALERT_CONFIRMED lines may occur within load/switch phases. A genuine new live broker bar after the recorded current_bar boundary is not an old-history replay.
+RUNTIME_SCOPE=PASS groups=39 failures=0; final visual/level/alert verdict requires native template/image/journal review

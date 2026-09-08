@@ -1,0 +1,44 @@
+SYNTHETIC MANUAL SCENARIOS. No trades or account API calls. Engineering thresholds are not handbook-specified numeric rules.
+FIXTURE CODEX_SUITE_SNR_MANUAL_908154
+FIXTURE CODEX_SUITE_SNR_STALL_908154
+FIXTURE CODEX_SUITE_SNR_WEAK_908154
+FIXTURE CODEX_SUITE_SNR_SEP_908154
+FIXTURE CODEX_SUITE_SNR_EQUAL_908154
+FIXTURE CODEX_SUITE_SNR_FUTURE_908154
+FIXTURE CODEX_SUITE_SNR_LIVE_908154
+FIXTURE CODEX_SUITE_SNR_APPEND_908154
+FIXTURE CODEX_SUITE_SNR_VIS_908154
+FIXTURE CODEX_SUITE_SNR_RS_908154
+FIXTURE CODEX_SUITE_SNR_RR_908154
+FIXTURE_READY symbol=CODEX_SUITE_SNR_MANUAL_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_STALL_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_WEAK_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_SEP_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_EQUAL_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_FUTURE_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_LIVE_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_APPEND_908154 existed=0 published_bars=54
+FIXTURE_READY symbol=CODEX_SUITE_SNR_VIS_908154 existed=0 published_bars=80
+FIXTURE_READY symbol=CODEX_SUITE_SNR_RS_908154 existed=0 published_bars=160
+FIXTURE_READY symbol=CODEX_SUITE_SNR_RR_908154 existed=0 published_bars=160
+MANUAL_REFERENCE pivot1=30 pivot2=50 activation_closed_bar=53 known_from_bar=54 lower=99.196428571429 upper=100.803571428571 arrival=60 bounce=63 fake_down=67 S_to_R=70 fake_up=71 R_to_S=74 third_cross=82 stall_bad=67
+SNR_TEMPLATE name=snr_373755078.tpl saved=1 save_error=0 deleted=1 delete_error=0 applied=1 apply_error=0 ready=1 target_objects=3 rectangles=1 host_objects=0
+SNR_VISUAL chart=42436094776874 attached=1 ready=1 template=1 rectangles=1 objects=3 width=2703 height=575 screenshot=1 exists=1
+PASS | SNR named custom fixture creation and all indicator buffers ready | samples=1 | failures=0 | max_error=0
+PASS | Independent Wilder ATR and first-pivot frozen zone width | samples=148 | failures=0 | max_error=2.6645352591e-15
+PASS | Exactly two separated strict-pivot reactions; activation at second pivot plus wing | samples=819 | failures=0 | max_error=0
+PASS | Zone bounds remain frozen through reactions ATR changes and both role flips | samples=214 | failures=0 | max_error=0
+PASS | Formation and distant price emit no arrival/rejection; first arrival is not a chase signal | samples=8 | failures=0 | max_error=0
+PASS | One continuous multi-bar visit counts once; outside bar re-arms next visit | samples=16 | failures=0 | max_error=0
+PASS | Two reactions are minor and third confirmed reaction makes zone major | samples=3 | failures=0 | max_error=0
+PASS | Close beyond distal boundary flips both ways without breaking-bar retest | samples=7 | failures=0 | max_error=0
+PASS | Wick penetration with reclaim flags false break while preserving role | samples=4 | failures=0 | max_error=0
+PASS | Two/three-bar partial-zone reclaim restores original role; zero disables; old break history stays | samples=13 | failures=0 | max_error=0
+PASS | Three side-to-side close crossings mark bad zone and suppress default display/arrows | samples=4 | failures=0 | max_error=0
+PASS | Visit deadline inclusive six elapsed bars; overdue visit becomes bad without extra touch | samples=12 | failures=0 | max_error=0
+PASS | Weak first reaction too-close touches and equal lows cannot form confirmed zone | samples=429 | failures=0 | max_error=0
+PASS | All 14 buffers preserve past prefix under future price perturbation | samples=1260 | failures=0 | max_error=0
+PASS | Current bar is a held closed snapshot with zero events/arrival and EMPTY arrows | samples=2244 | failures=0 | max_error=0
+PASS | Appending bars reproduces fresh full-history calculation and preserves prior closed prefix | samples=2982 | failures=0 | max_error=0
+PASS | Actual SNR chart objects frozen bounds role time and native-canvas screenshot | samples=6 | failures=0 | max_error=0
+OVERALL=PASS | metric_groups=17 | failed_groups=0 | elapsed_ms=1953
