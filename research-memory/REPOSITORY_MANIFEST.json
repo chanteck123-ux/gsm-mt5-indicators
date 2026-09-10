@@ -1,0 +1,2089 @@
+{
+  "schema_version": 1,
+  "snapshot_date_utc": "2026-09-10",
+  "repository": "chanteck123-ux/gsm-mt5-indicators",
+  "visibility": "private",
+  "base_main_commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+  "scope": "all visible branch tips at snapshot; not every historical revision",
+  "branch_count": 1,
+  "unique_path_count": 202,
+  "branch_file_entry_count": 202,
+  "branches": [
+    {
+      "name": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "file_count": 202,
+      "truncated": false
+    }
+  ],
+  "category_counts_by_unique_path": {
+    "其他已编目资料": 1,
+    "说明与研究知识": 15,
+    "数据清单与记录": 3,
+    "编译成品": 16,
+    "源码与工具": 16,
+    "验证脚本与证据": 139,
+    "原始参考资料": 12
+  },
+  "coverage": {
+    "branch_trees": "complete for listed branch tips",
+    "source_audit": "not performed; selected navigation documents read",
+    "archive_contents": "ZIP/PDF/EX5 content not decoded in this inventory",
+    "git_history": "retained by Git; not enumerated revision by revision",
+    "tags": "not_enumerated_endpoint_unsupported",
+    "releases_found": 0,
+    "issue_and_pr_entries": 0,
+    "workflows_and_artifacts": "not audited",
+    "future_oos_content": "not read for this catalog"
+  },
+  "maintenance_files_in_this_change": [
+    "AGENTS.md",
+    "README.md",
+    "docs/GSM_EA_RESEARCH_BRAIN_CN.md",
+    "research-memory/README_CN.md",
+    "research-memory/STATE_CN.md",
+    "research-memory/BRANCH_INDEX_CN.md",
+    "research-memory/FILE_INDEX_CN.md",
+    "research-memory/REPOSITORY_MANIFEST.json",
+    "research-memory/DECISIONS_CN.md",
+    "research-memory/GITHUB_LIBRARY_INDEX_CN.md"
+  ],
+  "same_content_different_paths": [
+    {
+      "git_blob_sha": "3d4da648b6c86c1da971cb3c95147cd6d2199dc8",
+      "paths": [
+        "packages/GSM_ADX_Trend_Meter/evidence/final_environment.json",
+        "packages/GSM_ATR_VFI/evidence/final_environment.json"
+      ]
+    },
+    {
+      "git_blob_sha": "3dbb8c6ccb36f7f6ede365e43ab01218a5732eb3",
+      "paths": [
+        "packages/GSM_ATR_VFI/evidence/atr/atr_invalid_init_evidence.txt",
+        "packages/GSM_ATR_VFI/evidence/atr/invalid_input_native_log.txt"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a2b4e3caaf6f42273771c98361ece9189b468383",
+      "bytes": 36,
+      "category": "其他已编目资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/.gitignore"
+    },
+    {
+      "path": "README.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9e310a099a330d0dbd044c462c03a64dc70b8575",
+      "bytes": 7436,
+      "category": "说明与研究知识",
+      "content_review": "text_read_for_navigation",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/README.md"
+    },
+    {
+      "path": "SHA256.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "20bf640ab5e738639a3d045ebe8b058303da7bbf",
+      "bytes": 25493,
+      "category": "数据清单与记录",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/SHA256.txt"
+    },
+    {
+      "path": "indicator_manifest.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f911fecefdd4ae98b9e6bf03b6e00e2cb9c8f9d1",
+      "bytes": 6794,
+      "category": "数据清单与记录",
+      "content_review": "text_read_for_navigation",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/indicator_manifest.json"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/GSM_ADX_BUFFER_MAP.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "358ea5666bcfa92b56cf9b651bfc44ae269d4450",
+      "bytes": 11055,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/GSM_ADX_BUFFER_MAP.md"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/GSM_ADX_TEST_REPORT.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fdf893531abdceda24d29b02400caefe56cb3da7",
+      "bytes": 10298,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/GSM_ADX_TEST_REPORT.md"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1907eb2b52b51edec8966c3bd919c2bfd9b6fed3",
+      "bytes": 75256,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.ex5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3a544641acebaf97b712523454b546d74e08e78d",
+      "bytes": 41511,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Indicators/GSM/GSM_ADX_Trend_Meter.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Compare.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "e9a8fd4a3e0c3c0b96a6b2ee43c7afe1be3019e7",
+      "bytes": 39890,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Compare.ex5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Compare.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "07f448f407f4da0cfdd9c8afabab387dd3bee4fd",
+      "bytes": 17239,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Compare.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Read_Example.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "20af3ce2de0042bff26e0c3fe964b23423a4205a",
+      "bytes": 9518,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Read_Example.ex5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Read_Example.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "763a711812c9f8227e550d62665c2c71bf608c8e",
+      "bytes": 1668,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/MQL5/Scripts/GSM_ADX_Read_Example.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/README_GSM_ADX_ZH.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "5c2e22df54845883de519d309bc1a24d902dcae1",
+      "bytes": 12381,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/README_GSM_ADX_ZH.md"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Alerts_Ticks.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "16a06da458e2b28e9b1ab0f3b5ad0d751a842a93",
+      "bytes": 10412,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Alerts_Ticks.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Alerts_Ticks_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "af430dc06b15f86399cb8fc05a97a0037194d016",
+      "bytes": 1533,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Alerts_Ticks_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "50b27b8a1eabef2f17c504da0cb971ffe370e667",
+      "bytes": 17290,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2a7a2144da6cbd4db1f48a5acc9195a37fa41923",
+      "bytes": 23262,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker_values.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "cb3c3d41806ce2082de13767f52c066a71b89200",
+      "bytes": 8552848,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Compare_Broker_values.csv"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "336ea95210f4d28c424e8372290626a710b61572",
+      "bytes": 23540,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7d138d3f8b3a154b0658c3eb441fca92ec22c7b9",
+      "bytes": 3192,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b4ca90c1a1261bf57c3be805f0db1c929a32680d",
+      "bytes": 5530,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Engineering_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_FaultInjected.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ff1856164aed5376cb85ade55ca7fcaac37c5ace",
+      "bytes": 44930,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_FaultInjected.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_FaultInjected_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "46f1200776e5b320de2591905e0ed6e181a61c68",
+      "bytes": 3200,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_FaultInjected_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_Test.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "50d1b4359b84d4d7989b54a7274ac9f511d87697",
+      "bytes": 14067,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_Test.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_Test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "e1b12e137987c7b09c8de21b36720e7f96ad508e",
+      "bytes": 3188,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_Test_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d0a72a453f8adcfd135e7e89a4b47daa9e2317d6",
+      "bytes": 3433,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Fault_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H1.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "480ba0ab041106ef3131252c8f403832a65dffa5",
+      "bytes": 66030,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H1.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H1.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "14728b4cd19af3e6900d2d33912d75db63364ce6",
+      "bytes": 38996,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H1.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H4.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "dce69056ab659447d90640c757ecb2751c2b7816",
+      "bytes": 68966,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H4.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H4.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b308be5ffb88cd93e8658f9121cfffd9981cbd96",
+      "bytes": 34818,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_H4.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M15.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "74735766b455faf017546a659f91dd687b13ffde",
+      "bytes": 66210,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M15.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M15.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "5677337b27d03dce7b4415558147dc49a3c50984",
+      "bytes": 36912,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M15.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M5.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2bac0169cc6ab62a7ec255e7210109a39296c4b1",
+      "bytes": 75911,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M5.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M5.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "698c340f84e90b7015afebb7cacfea455e29f963",
+      "bytes": 39366,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_M5.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d386aaf75c681a9edaf64110c48077c926108c6a",
+      "bytes": 12075,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual_buffers.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6c23d12366b89c6f2b14b3898ac1b31150410339",
+      "bytes": 62237,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual_buffers.csv"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "64ab4b8bdf50e2f443fbb3239bb15a2ea93c632d",
+      "bytes": 5722,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_GOLD_Visual_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "06ffd450d13ee5998b040511e085442b8affc3b3",
+      "bytes": 1057812,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.csv"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8bc19f4c2d017dd76eff89e4ec91e85c55a635ad",
+      "bytes": 17728,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "466557fd7bc322068933dee22c65f6fbf421b96b",
+      "bytes": 3609,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Pine_Test.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Rules_Test.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9089eb6157e1fa378944ff70a25254f06e370186",
+      "bytes": 21058,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Rules_Test.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Rules_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d75e450511f84bb2eea3d86ea9391a22a9826bf5",
+      "bytes": 1670,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Rules_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "5b0b9ebcf688dea4cee7e443c619b29936522e40",
+      "bytes": 68858,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0af8d09995d0cc5ee56569b6c79db9ec1aa86e66",
+      "bytes": 38288,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15_buffers.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "709995ce3d43a79302f71a16079972e3ef2596c3",
+      "bytes": 15679,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15_buffers.csv"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7bbfd7b5515df8a7c41d2adf498924dc74d42463",
+      "bytes": 1480,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_EURUSD_M15_results.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_Visual.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ea2f875c7a8ed13c8a2fe14595ccd321a5f76a7f",
+      "bytes": 10507,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_Second_Visual.mq5"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_engineering.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "92395ce2303accf5fa2f987fa14bc96661b33b3f",
+      "bytes": 13414,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_engineering.tpl"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_engineering_chart.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2e93fd7691aa1955f054414825c7981b209ece64",
+      "bytes": 76508,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/GSM_ADX_engineering_chart.png"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/adx_fault_harness.mqh",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "37e006bbc396db91129330305ae6a4c435bd4e4c",
+      "bytes": 13644,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/adx_fault_harness.mqh"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/adx_fault_transformation.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a8a12ecdf11e40edc90e70b7c47e893a54c91fbe",
+      "bytes": 1601,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/adx_fault_transformation.json"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/adx_rules_harness.mqh",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b60cb9253c252282d8c1943eb9b47b6e3f2d8459",
+      "bytes": 16669,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/adx_rules_harness.mqh"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/alerts_log_verification.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8c9f88953bdcdaf44428fef0cba240bbaa0f7474",
+      "bytes": 364,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/alerts_log_verification.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/alerts_native_log.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "16d531e39e144b4c474897b3ed84f2a083741e22",
+      "bytes": 1800,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/alerts_native_log.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/alerts_ticks_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "cb00f5d2f52bc305749b4e2f1ab4fca37507c23a",
+      "bytes": 3196,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/alerts_ticks_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/build_adx_fault_test.py",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "eb5bb00053478c60be6fceb909c275f6caa56023",
+      "bytes": 5153,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/build_adx_fault_test.py"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/build_adx_rules_test.py",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d9c121c506b5f42e443b5e0ed7c8534f393bab1a",
+      "bytes": 1361,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/build_adx_rules_test.py"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/compare_broker_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "46b823fb3dfd3c5cd73acb87caca7d40c8069cfa",
+      "bytes": 3204,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/compare_broker_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/compare_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "e528aa5809035a1bf4ccb6d52959758e3f21bdf2",
+      "bytes": 3304,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/compare_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/final_environment.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3d4da648b6c86c1da971cb3c95147cd6d2199dc8",
+      "bytes": 1238,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/final_environment.json"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/gold_visual_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "03b66acd594fd5fe01032955876c0dff3f7fbbe8",
+      "bytes": 3192,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/gold_visual_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/gsm_adx_discovery.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b6be23a19dc6d0a5dd193e5ed585584bd2622c6a",
+      "bytes": 1304,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/gsm_adx_discovery.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/indicator_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "98ea8e656b749e9ff32a61c6be8547bedd9c6ca0",
+      "bytes": 3348,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/indicator_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/invalid_input_native_log.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2337d1fb3d70dd9d15aecf8c905efb293ed48715",
+      "bytes": 802,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/invalid_input_native_log.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/pine_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "bfe2adaef64ce5c04c430d62a01d8014cb29f8cb",
+      "bytes": 3184,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/pine_test_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/read_example_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "47f87cd3604b82de6c2e0f9399a742b6dcb1489c",
+      "bytes": 3534,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/read_example_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/real_chart_lifecycle_native_log.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f36550db0fde45700af8bb03419206384dfcc5ff",
+      "bytes": 3006,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/real_chart_lifecycle_native_log.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/real_chart_visual_review.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6504cdea1a89ba5871038abe228dc3bb148cdeaa",
+      "bytes": 724,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/real_chart_visual_review.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/rules_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3969b52ad720d85fd285f1c226737134033843a4",
+      "bytes": 3188,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/rules_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/evidence/second_visual_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "c2a9225334ac5185f586f50ce40b3859ffe5edd3",
+      "bytes": 3200,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/evidence/second_visual_compile.log"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/source_reference/ADX and DI.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "540e131d9eee87ae95f1f076431f5160f2fd14bc",
+      "bytes": 1348,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/source_reference/ADX%20and%20DI.txt"
+    },
+    {
+      "path": "packages/GSM_ADX_Trend_Meter/source_reference/CODEX_GSM_ADX_Trend_Meter_MT5_v1.0.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b0692b1702159440488cb85dfd14397d524926b8",
+      "bytes": 21614,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ADX_Trend_Meter/source_reference/CODEX_GSM_ADX_Trend_Meter_MT5_v1.0.md"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "5c9e1e23c6b1eed7965e7e7ec1e3962f2401dd23",
+      "bytes": 52596,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.ex5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "c715572a66ef7a4807a1e3900b0335704d74ca01",
+      "bytes": 19436,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Saty_ATR_Levels_MT5.mq5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "37e33fb4682082d09214528336fcd475ec3d4671",
+      "bytes": 23318,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.ex5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "623b103f3c454b92ac416417c19ecce9ef4bed16",
+      "bytes": 10602,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Indicators/GSM/Volume_Flow_Indicator_MT5.mq5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Scripts/VFI_Buffer_Read.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7d42d60cbba8ba3799cf9d209c807b36039a9cb1",
+      "bytes": 8608,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Scripts/VFI_Buffer_Read.ex5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/MQL5/Scripts/VFI_Buffer_Read.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0948e4e2dac4531e4e8721ee48c90b43a12e9b8b",
+      "bytes": 1404,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/MQL5/Scripts/VFI_Buffer_Read.mq5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/Saty_ATR_测试报告.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "16593bd43648897a17362a62945736cfa6b636f5",
+      "bytes": 7638,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/Saty_ATR_%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A.md"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/Saty_ATR_规则与缓冲区说明.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7cc598f55f644a020e0e0b102d4846f096dff213",
+      "bytes": 8899,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/Saty_ATR_%E8%A7%84%E5%88%99%E4%B8%8E%E7%BC%93%E5%86%B2%E5%8C%BA%E8%AF%B4%E6%98%8E.md"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/VFI_测试报告.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1ef4da04b002e0984ca37187d8c2385abab635a7",
+      "bytes": 7615,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/VFI_%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A.md"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/VFI_规则与缓冲区说明.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7f61b00f7f466df7bcd2fae9c845ae36e26f98c4",
+      "bytes": 6462,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/VFI_%E8%A7%84%E5%88%99%E4%B8%8E%E7%BC%93%E5%86%B2%E5%8C%BA%E8%AF%B4%E6%98%8E.md"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ac15e17826277f2b2e3f244cf5b14d3ca441160a",
+      "bytes": 41351,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation.png"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation.tpl",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "dd0513dc2ee840d54f2f51417d411ce8921293f1",
+      "bytes": 10718,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation.tpl"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "59e8d392bc57a2129f604adc1ba09ae07fdbfdb9",
+      "bytes": 2652,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation_results.txt"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation_values.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3f27e4594151676f7e999f4932e75bdeec111f38",
+      "bytes": 964668,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/Saty_ATR_validation_values.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/Validate_Saty_ATR.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "cc23d1cc4b5c3c27d929301fc7c3e448a55407cf",
+      "bytes": 27889,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/Validate_Saty_ATR.mq5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/atr_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8fdaa2a5181d277eaa14e9003b788ace566e5fb7",
+      "bytes": 3316,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/atr_compile.log"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/atr_csv_statistics.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "40d4a05748aa7901bfcd11580d555bbe3c625df0",
+      "bytes": 1471,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/atr_csv_statistics.json"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/atr_invalid_init_evidence.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3dbb8c6ccb36f7f6ede365e43ab01218a5732eb3",
+      "bytes": 488,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/atr_invalid_init_evidence.txt"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/atr_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "837c0b5d53617041ffdf7a3f35908bfdc20db522",
+      "bytes": 3184,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/atr_test_compile.log"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/build_atr.py",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8d0a0e1df3f2fe1d616b2bdbd90e004318c5f6ec",
+      "bytes": 19440,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/build_atr.py"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/atr/invalid_input_native_log.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3dbb8c6ccb36f7f6ede365e43ab01218a5732eb3",
+      "bytes": 488,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/atr/invalid_input_native_log.txt"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/final_environment.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3d4da648b6c86c1da971cb3c95147cd6d2199dc8",
+      "bytes": 1238,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/final_environment.json"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/VFI_MT5_preview.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0c99ff7c9dd11b50afc88708d74d2facc43566ac",
+      "bytes": 47502,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/VFI_MT5_preview.png"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "93720f6e705a7e408b04b304c1f33792ee106566",
+      "bytes": 17851,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation.mq5"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "609e0ae9611bf6a9e66968f90bdbfd85c489c819",
+      "bytes": 13646,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation_results.txt"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation_values.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2e63be0b896f22e05f3033bb720a01ef2659cde1",
+      "bytes": 1830279,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/VFI_Validation_values.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/build_vfi_tests.py",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8d7a9950bef8164949853f1c064a09c26a4e5546",
+      "bytes": 6364,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/build_vfi_tests.py"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/default_tick.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d4302d4185a51b229245e40c7a093fa981fb1dd9",
+      "bytes": 105374,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/default_tick.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/flat_valid_zero.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8d8e695d4f3755627515d1f6841364a78808bd2e",
+      "bytes": 7798,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/flat_valid_zero.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/future_base.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8e200bd8eec0605166d87488bd23fa76845cfaaa",
+      "bytes": 50140,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/future_base.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/future_changed.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "bf4e058334e87caf37c22d544479226a236ff371",
+      "bytes": 48034,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/future_changed.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/length1_volume_cap.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "922d911fe539b9d9d029def888add311bef9519f",
+      "bytes": 11316,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/length1_volume_cap.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/prefix_160.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a751b535c5fba37e58b278b957381b05fee4077c",
+      "bytes": 32300,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/prefix_160.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/real_volume.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "28db52034a2d2460ac5f8442683bd40d3ce4b6fd",
+      "bytes": 69452,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/real_volume.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/real_zero_no_fallback.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8ea8581d1dda2ff323dd56c3285ea33b157d48ac",
+      "bytes": 18377,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/real_zero_no_fallback.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/short_history.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "7f70830b975868de0c6c76acded875f0b4ec8ee6",
+      "bytes": 2811,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/short_history.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/smooth_tick.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a020519c280570a4d16ea64d729123ea3162c08d",
+      "bytes": 105332,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/smooth_tick.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/vcoef_zero.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "300ff03329f5907b2cbbfe6b0d6d697024496f49",
+      "bytes": 12942,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/vcoef_zero.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/volume_gap_resume.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a0152a67fbceff0c1b4449052edd042f85d09de9",
+      "bytes": 35650,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/volume_gap_resume.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/fixtures/zero_tick.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3b710c71f8e20313a220ad70257da3f9952f31b2",
+      "bytes": 15024,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/fixtures/zero_tick.csv"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/indicator_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a158840c1cb14c253dd1f8317fc29bf5c39643b0",
+      "bytes": 3340,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/indicator_compile.log"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/read_example_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1598f77bdb3136cabc2d9ab8e0a6937064b56db2",
+      "bytes": 3622,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/read_example_compile.log"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "cdb6cbde2a074181dc0f349c7fd59967f247c380",
+      "bytes": 3522,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/test_compile.log"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/vfi_native_harness.mqh",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "977106d29ae3d26784c6ef60e7ad59af9e783380",
+      "bytes": 15711,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/vfi_native_harness.mqh"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/evidence/vfi/vfi_reference_manifest.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b24a051cb62f30209adeca9f8f4c88e7e0f44dd5",
+      "bytes": 6324,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/evidence/vfi/vfi_reference_manifest.json"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/source_reference/Saty ATR Levels.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "612fb016f49f4308bc92588d58e9553516b7bc3d",
+      "bytes": 12745,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/source_reference/Saty%20ATR%20Levels.txt"
+    },
+    {
+      "path": "packages/GSM_ATR_VFI/source_reference/Volume Flow Indicator.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ccf4edb5a9ca16a5b04c614c492f7452afcd7056",
+      "bytes": 1041,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/GSM_ATR_VFI/source_reference/Volume%20Flow%20Indicator.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b242de6f10eab9d7fcc537a79e4a55c641961db8",
+      "bytes": 26754,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "e3d1788ae5be5f908e5b353f4e9dd086da0ba52f",
+      "bytes": 12118,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Bollinger_RSI_ChartArt_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "5186b51ebb8a8279f3bdcfdbccf4cb55de4ccf56",
+      "bytes": 24890,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fc3e7d342f26e5ef6c2fa248148b269c5faa452f",
+      "bytes": 11160,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/CM_MACD_Ult_MTF_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ee0068e8bcc53dd43f2041947e9bd0be5d8bdff4",
+      "bytes": 14346,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "15e57a7984134b1827484f465d066ca4c92db89e",
+      "bytes": 3432,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/EMA_20_50_100_200_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/GSM_SND_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "38d07bd6123b48a97161f1cccfcb40d5ecf30f11",
+      "bytes": 47772,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/GSM_SND_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/GSM_SND_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1e12ad358fac09fee445411085af5577676328d5",
+      "bytes": 23098,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/GSM_SND_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/GSM_SNR_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fd6114dd18ca0db640de24aeb263ba9730d6396e",
+      "bytes": 37896,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/GSM_SNR_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/GSM_SNR_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9a769205583b2e43a60d27320bee994d028b6163",
+      "bytes": 17581,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/GSM_SNR_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/MACD_比较说明.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "52a2c8fd0436d9dfcff107ad49f5cafa9a33e87f",
+      "bytes": 5567,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/MACD_%E6%AF%94%E8%BE%83%E8%AF%B4%E6%98%8E.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SHA256.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "db08bb443902b3f982557f4a80738a431e4c63a4",
+      "bytes": 8058,
+      "category": "数据清单与记录",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SHA256.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "896605c4de381ed97cc0e597b1dbd3312b05515a",
+      "bytes": 24774,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b82df64ac50f3a93ea83299f9d7ddc9ec42a08a6",
+      "bytes": 7990,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SMA_Ribbon_10_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SMC_Structure_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0bb4ce31529bbacb8a89972982edd834a4b3cb8a",
+      "bytes": 79792,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SMC_Structure_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SMC_Structure_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0460466233e1875471eccbb71316b82cc5fdd892",
+      "bytes": 44253,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SMC_Structure_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SMC_规则与数据接口.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0cfd7724efbb85c83ad5e98491f293ce22a50863",
+      "bytes": 11085,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SMC_%E8%A7%84%E5%88%99%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SND_规则与数据接口.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f4bb6e5ab0f129ae23fce0116cc3656e700690e6",
+      "bytes": 7260,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SND_%E8%A7%84%E5%88%99%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/SNR_规则与数据接口.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a9b3af71171c7a5a81cbe17aeeb14ca4ec327717",
+      "bytes": 7842,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/SNR_%E8%A7%84%E5%88%99%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Stoch_RSI_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "aa686ba6d076835da2e8c63e3c032bf30bda1a25",
+      "bytes": 13784,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Stoch_RSI_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Stoch_RSI_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f51bc75f7e62f976737eb76f2133f04c4a665c7f",
+      "bytes": 9848,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Stoch_RSI_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Volume_Profile_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "eb3f04cb66ca1905ad5817484b96e82ac69e5f88",
+      "bytes": 30402,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Volume_Profile_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/Volume_Profile_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3d55ec1c1257a5735d58da124fb8ec0bebb118cb",
+      "bytes": 16113,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/Volume_Profile_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.ex5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b371d17a073aff8571a5076e24cd13018e79e39d",
+      "bytes": 21052,
+      "category": "编译成品",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.ex5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8dbc3b2fbf556d702b13ff569cbb584c9f0b4b6e",
+      "bytes": 10906,
+      "category": "源码与工具",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/ZeroLag_MACD_MT5.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Preview_Suite.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "55016180a4d019e67558c6eb552851389749e7c4",
+      "bytes": 11053,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Preview_Suite.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Validate_Classic_Suite.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "bb7dbc3a0556aed103bf48c86e91d382643f5da9",
+      "bytes": 17795,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Validate_Classic_Suite.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Validate_SMC_Suite.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "442f38773d51d81fd6cd50816692c277f3acc8b0",
+      "bytes": 23052,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Validate_SMC_Suite.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Validate_SND_Suite.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6d36b1b43c770a20f6c87199260f799a9897b21b",
+      "bytes": 14584,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Validate_SND_Suite.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Validate_SNR_Suite.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "30fe971a485929f86d2c3a483b548c79dd2d6a8f",
+      "bytes": 28103,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Validate_SNR_Suite.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/Validate_ZLMACD.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "36c9ba1f8f3ad44e8127466e16e53e040c6ca5aa",
+      "bytes": 14458,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/Validate_ZLMACD.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/environment.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "4cdafc5cc26da27bc9ed4865c149b2396761184e",
+      "bytes": 1745,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/environment.json"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/Validate_Indicators.mq5",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f10dc716f712aab393e339ae1f834997012dc10b",
+      "bytes": 17047,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/Validate_Indicators.mq5"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/environment.json",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "bf168422ed7d4872eaca5db50f465cff39cefcc7",
+      "bytes": 453,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/environment.json"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/macd_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8d7043097f5edb999a1fb00d5f58dc5d7d8f1fe8",
+      "bytes": 3248,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/macd_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/stoch_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "ff2cb8cda508494222fa8b43288c6f4292991366",
+      "bytes": 3224,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/stoch_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6fae7ce07184c41642e4e09e943eb250d7e01748",
+      "bytes": 3824,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "882325ebe344046ec41fe4126efb06a40888170d",
+      "bytes": 2492,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_synthetic_chart.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "c92c45f5cd90e1f90de0469f6880f5cbb5951b28",
+      "bytes": 53124,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_synthetic_chart.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_values.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "312973ba3c62c9e2991a47ad3ab386c080633ba5",
+      "bytes": 616638,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/prior_CM_Stoch/validation_values.csv"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/snd_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6d0a3fdb8326597783926127caba631e2a2f7d8b",
+      "bytes": 3236,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/snd_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/snd_validation_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "713812ed93d3dbe4966db88ac4df632700a11d97",
+      "bytes": 3486,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/snd_validation_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/snr_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "497b89208241e3ae1cf98835fde0a40e4c187814",
+      "bytes": 3236,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/snr_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/snr_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "94d9f1c9673d54794e333b341d68b811eedddc01",
+      "bytes": 3486,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/snr_test_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_bb.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1567ca1a9a258c418b17fd6f95f2efcd152d4007",
+      "bytes": 36507,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_bb.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_classic_Bollinger_RSI_ChartArt_MT5.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fc4a490ecb19b4555334c06dc9b49d92497583bf",
+      "bytes": 3296,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_classic_Bollinger_RSI_ChartArt_MT5.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_classic_EMA_20_50_100_200_MT5.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "6ef16d080ef46fcc2214e64d4556d868c851a910",
+      "bytes": 3276,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_classic_EMA_20_50_100_200_MT5.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_classic_SMA_Ribbon_10_MT5.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "c51444877d34db9dbd2457bb37b3ff92e73e2d40",
+      "bytes": 3260,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_classic_SMA_Ribbon_10_MT5.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_classic_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3aae05d71ed6e5f37607bbafb6f44393af609839",
+      "bytes": 3411,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_classic_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_classic_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "4db409532cc9dd8c49b3f0226d2f91887e5383e4",
+      "bytes": 4520,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_classic_test_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_ema.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "2fe434f472431e8b8f6d7f96436d98f8e8e4896c",
+      "bytes": 29301,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_ema.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_preview_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "651631238b93b218e8da08408a2efd42f059aea4",
+      "bytes": 4484,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_preview_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_preview_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "aca04070bc8fb07944f7df7a7f73e0e110058dd7",
+      "bytes": 2270,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_preview_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_sma.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a1cb1c3c8eeecd99c762ff82de521f4411dc0ceb",
+      "bytes": 28219,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_sma.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_smc_chart.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "1795ef9181c6f1ed4d96b8d5241d969c28c82e74",
+      "bytes": 35889,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_smc_chart.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_smc_events.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "b51d44dddf69ec6c27f822e563c4fd1ae1603dbc",
+      "bytes": 51309,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_smc_events.csv"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_smc_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0f7b28c9ae853b3ef32b6b538d271decd62d3472",
+      "bytes": 4194,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_smc_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snd_chart.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "66bc3d6043a7d63fb58aa96838cb8cbd6a131d39",
+      "bytes": 29267,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snd_chart.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snd_events.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3485716c82c8737d42791c8eb723f8650b8826fa",
+      "bytes": 8420,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snd_events.csv"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snd_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "efdff9119d249964d12be43af6945b53b9cc03a8",
+      "bytes": 1785,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snd_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snr.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "349242bd667cf02a826722186b895dc066fdd8c7",
+      "bytes": 35736,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snr.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snr_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "64249144189d1adcff8d749d25356e6e45f846c7",
+      "bytes": 4146,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snr_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_snr_values.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "f45432c934b80615174594e2b9c9863ae2bed092",
+      "bytes": 46072,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_snr_values.csv"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_structure_smc.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "bc161f2ca89f10cbca946c6fbd115e519ae7c0f2",
+      "bytes": 3260,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_structure_smc.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_structure_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9dd743524c42866d281ddefc8757e31e366ffd3a",
+      "bytes": 3498,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_structure_test_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_volume_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "0fa14c6e85787830c71fcba0a538bce69a27aca1",
+      "bytes": 3264,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_volume_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_vp.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "69635fb1cb52fa5619d5371431fa9e36648c2e09",
+      "bytes": 30024,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_vp.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_zl_comparison.csv",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d9b4913fa19bd3312fe75a86111fcf88af5b46ac",
+      "bytes": 953492,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_zl_comparison.csv"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_zl_comparison.png",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "a0bcd5dbdf7beb9e898677ab6c190a5b43b0647f",
+      "bytes": 51347,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_zl_comparison.png"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_zl_results.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "e8b1feaf06abf3aee7f8805688f777864fa278c3",
+      "bytes": 4546,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_zl_results.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_zlmacd_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "8ea60d06019a1d9ccc6cb2b2841c248183147e9a",
+      "bytes": 3256,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_zlmacd_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/evidence/suite_zlmacd_test_compile.log",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "527c0e2dc8a53774648e5cc7437f5019f2394868",
+      "bytes": 3814,
+      "category": "验证脚本与证据",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/evidence/suite_zlmacd_test_compile.log"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/Bollinger Bands.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "d49a9dc2c2ba947572860bea0497a4a34effac2e",
+      "bytes": 2801,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/Bollinger%20Bands.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/EMA.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9b8df028295d95ed1d68d044ecb55e95e8173807",
+      "bytes": 271,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/EMA.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/Gold Secret Mastery (GSM) · Supply & Demand Handbook.pdf",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "9fb264d05c8f1ebb32902a0d28ab93cd31387490",
+      "bytes": 3719741,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/Gold%20Secret%20Mastery%20%28GSM%29%20%C2%B7%20Supply%20%26%20Demand%20Handbook.pdf"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/Gold Secret Mastery (GSM) · Support & Resistance Handbook.pdf",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fdb58c354e4f617749a713ee4715662e37e514f8",
+      "bytes": 4502520,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/Gold%20Secret%20Mastery%20%28GSM%29%20%C2%B7%20Support%20%26%20Resistance%20Handbook.pdf"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/Simple Moving Averages.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "56f0e0dac9a4e69064e6fbda59ff5f10a11bda32",
+      "bytes": 1928,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/Simple%20Moving%20Averages.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/Volume Profile.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "73440f44cdadc66dbad2c256595ac5f81bf5c9c3",
+      "bytes": 9635,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/Volume%20Profile.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/macd.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "cb8531aa78014b589f85d7b776f8076f3bd78a7e",
+      "bytes": 2649,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/macd.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/source_reference/smc.txt",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "3920391ea5f12bec96512e6236fb1aba10e2128e",
+      "bytes": 51136,
+      "category": "原始参考资料",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/source_reference/smc.txt"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/使用说明.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "36f08386047b358f9eb3c0533a6c94596ae2e7c6",
+      "bytes": 9075,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/图表预览.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "23111564d744c04c529665e3df739e17ef5a6b55",
+      "bytes": 1987,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/%E5%9B%BE%E8%A1%A8%E9%A2%84%E8%A7%88.md"
+    },
+    {
+      "path": "packages/MT5_Indicator_Suite/验证结果.md",
+      "branch": "main",
+      "commit": "b3c829ca2f9997703d64b6ab674413d46c1edef1",
+      "git_blob_sha": "fc56d2f01c61a7816b0fca5d6940849246e6dfeb",
+      "bytes": 4511,
+      "category": "说明与研究知识",
+      "content_review": "metadata_only",
+      "url": "https://github.com/chanteck123-ux/gsm-mt5-indicators/blob/b3c829ca2f9997703d64b6ab674413d46c1edef1/packages/MT5_Indicator_Suite/%E9%AA%8C%E8%AF%81%E7%BB%93%E6%9E%9C.md"
+    }
+  ]
+}

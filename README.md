@@ -1,5 +1,12 @@
 # GSM MT5 指标库
 
+## Codex 记忆与图书馆
+
+[本库资料导航](research-memory/README_CN.md) · [跨仓库总目录](research-memory/GITHUB_LIBRARY_INDEX_CN.md) · [全部文件](research-memory/FILE_INDEX_CN.md) · [研发头脑 v1.1](docs/GSM_EA_RESEARCH_BRAIN_CN.md)
+
+Codex 按 2026-09-10 用户授权自主整理、维护和同步，无须逐项询问。指标安装、源码、EX5、接口和既有验证说明继续按下文执行。
+
+
 13 个独立 MT5 指标，提供完整 `.mq5`、实际编译的 `.ex5`、中文说明、EA 缓冲区接口及真实验证证据。保存于私有仓库，供后续 EA 开发和测试使用。没有加入自动交易规则，没有修改现有 EA 或 SOP。
 
 ## 安装
