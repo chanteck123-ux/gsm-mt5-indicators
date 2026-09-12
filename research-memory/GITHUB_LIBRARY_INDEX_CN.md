@@ -11,11 +11,13 @@
 
 共有 9 个可见分支、462 个按仓库区分的文件路径；跨分支同路径只计一次，不同版本保留在逐分支清单。数量对应整理前固定快照，新维护文件另列。
 
+2026-09-12 计划入口更新：用户指定的风险更新计划已完整替换 EA 仓库 main 中英文总计划，提交 `02f77ee57d0a5ce85ed05de036a5e2cfeab6bad9`。本次保存与翻译不表示启动 EA 开发或回测；上方文件统计仍为原盘点快照。
+
 ## 常用任务去哪里
 
 | 任务 | 位置 |
 | --- | --- |
-| 继续旧版 3-SOP 研究 | EA 仓库的当前状态 → 已确认计划分支 → 冻结基准和研究交付。 |
+| 继续旧版 3-SOP 研究 | EA 仓库的当前状态 → main [当前中文计划](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/FINAL_CHAMPION_ITERATION_SYSTEM_CN.md) / [English](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/FINAL_CHAMPION_ITERATION_SYSTEM.md) → 冻结基准和研究交付。旧计划仅作历史资料。 |
 | 找六策略说明和资金资料 | EA 的 `research/codex/ea-plan-20260906` 分支，`research/github/`。 |
 | 运行或改进 Python 分析器 | EA 的 `research/python/gsm-gold-analyzer-source-v1` 分支，`python_analyzer/`。 |
 | 研究 ADX、MACD、SND/SNR、ATR/VFI 等接口 | 本库 `indicator_manifest.json` → 对应 package 的中文接口和测试报告。 |
