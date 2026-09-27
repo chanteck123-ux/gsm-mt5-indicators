@@ -4,6 +4,7 @@
 
 | 入口 | 内容 |
 | --- | --- |
+| [指标研究说明（2026-09-27）](../docs/INDICATOR_RESEARCH_PRINCIPLES_CN_20260927.md) | 分工、经验参数、MACD定义、Tick／Real量、独立风控与新增指标贡献；仅资料保存。 |
 | [研发头脑 v1.1](../docs/GSM_EA_RESEARCH_BRAIN_CN.md) | 学习、编码、验证、GitHub 自主管理规则。 |
 | [当前状态](STATE_CN.md) | 当前事实、证据范围和下一步。 |
 | [全部文件](FILE_INDEX_CN.md) | 202 个文件路径及各分支固定位置。 |

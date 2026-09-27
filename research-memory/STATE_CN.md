@@ -1,5 +1,7 @@
 # 指标库当前状态
 
+2026-09-27保存：用户要求把指标研究说明保存到本指标GitHub。新增[研究资料](../docs/INDICATOR_RESEARCH_PRINCIPLES_CN_20260927.md)，已核对官方定义、论文相关摘要／方法和本库MACD／VFI／Volume Profile对应接口；修正引用占位符并接入README和研究导航。状态为RESEARCH_GUIDANCE_SAVED／NOT_IMPLEMENTED／NOT_BACKTESTED；未改变13项MQ5／EX5、指标默认参数、EA源码或实盘。没有重跑历史指标测试、复现论文或取得新EA收益。下列2026-09-10盘点保持历史身份。
+
 核对日期：2026-09-10 UTC；main 快照 `b3c829ca2f9997703d64b6ab674413d46c1edef1`。
 
 - `indicator_manifest.json` 登记 13 个正式指标的源码、EX5、安装名称和已有 SHA256；本次已核对 26 个正式成品路径均出现在仓库树中。
