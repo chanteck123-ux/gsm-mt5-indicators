@@ -10,6 +10,8 @@ Codex 按 2026-09-10 用户授权自主整理、维护和同步，无须逐项�
 
 2026-09-27研究资料：[黄金EA指标分工、数据口径与增量贡献](docs/INDICATOR_RESEARCH_PRINCIPLES_CN_20260927.md)。明确经验阈值、MACD算法差异、Tick／Real量、风险换算及加入／移除指标的对照方法；默认值不是黄金最优参数，本次仅保存说明。
 
+2026-10-03研究资料：[PVO 与价格方向组合](docs/PVO_PRICE_VOLUME_INTERPRETATION_CN_20261003.md)。记录“价格方向 + PVO 参与度变化”的四种组合、零轴和 Tick/Real Volume 使用边界；目前仅为研究说明，未新增 PVO 成品指标、未接入 EA、未完成盈利验证。
+
 
 13 个独立 MT5 指标，提供完整 `.mq5`、实际编译的 `.ex5`、中文说明、EA 缓冲区接口及真实验证证据。保存于私有仓库，供后续 EA 开发和测试使用。没有加入自动交易规则，没有修改现有 EA 或 SOP。
 
@@ -25,7 +27,7 @@ Codex 按 2026-09-10 用户授权自主整理、维护和同步，无须逐项�
 旧 10 指标包保留原有目录和说明；本总包统一建议安装到 `Indicators/GSM`，因此旧文档示例中的裸指标名在本安装方式下须加 `GSM\\` 前缀。默认调用例如：
 
 ```cpp
-int handle = iCustom(_Symbol, _Period, "GSM\\GSM_ADX_Trend_Meter");
+int handle = iCustom(_Symbol, _Period, "GSM\\\\GSM_ADX_Trend_Meter");
 ```
 
 ## 指标与说明
