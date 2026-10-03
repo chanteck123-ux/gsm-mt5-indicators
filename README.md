@@ -1,8 +1,10 @@
 # GSM MT5 指标库
 
-## Codex 记忆与图书馆
+## Codex 与 Claude 记忆及图书馆
 
 [本库资料导航](research-memory/README_CN.md) · [跨仓库总目录](research-memory/GITHUB_LIBRARY_INDEX_CN.md) · [全部文件](research-memory/FILE_INDEX_CN.md) · [研发头脑 v1.1](docs/GSM_EA_RESEARCH_BRAIN_CN.md)
+
+当前协作分工见 [AGENTS.md](AGENTS.md)：双方讨论、Claude 写改代码、双方复审、Codex 编译／测试与证据整理。知识大脑与当前 EA 计划在 [主仓库](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading)；本库提供指标源码、EX5、manifest、接口和验证说明。每次接续读取最新仓库内容，文件存在不等于已加载聊天记忆。
 
 Codex 按 2026-09-10 用户授权自主整理、维护和同步，无须逐项询问。指标安装、源码、EX5、接口和既有验证说明继续按下文执行。
 

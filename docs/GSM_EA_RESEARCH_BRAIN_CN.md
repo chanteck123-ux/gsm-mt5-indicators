@@ -1,5 +1,7 @@
 # GSM EA 交易研发头脑
 
+> 2026-10-03 入口更新：本页下方 2026-09-10 v1.1 正文保留为历史参考。最新知识大脑以[主仓库当前文件](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/docs/GSM_EA_RESEARCH_BRAIN_CN.md)为准，完整协作分工以[主仓库 AGENTS.md](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/AGENTS.md)为准；本库入口见 [AGENTS.md](../AGENTS.md)。用户指定双方讨论方案、Claude 写改代码、双方复审、Codex 编译／测试和证据整理。历史正文中的编码角色、Python 用途、SOP 限制和固定目标不能覆盖当前规则，不把旧资金／验收自动套给其他项目。
+
 版本：1.1 · 日期：2026-09-10 · 适用：GPT / Codex，MT5 黄金 EA 研究与代码开发
 
 ## 给 Jason 的使用说明

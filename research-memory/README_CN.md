@@ -1,5 +1,7 @@
 # MT5 指标记忆与资料导航
 
+2026-10-03 协作入口更新：[本库 AGENTS.md](../AGENTS.md) 明确双方讨论、Claude 写改代码、双方复审、Codex 编译／测试；[CLAUDE.md](../CLAUDE.md) 导入同一入口。最新知识大脑在[主仓库](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/docs/GSM_EA_RESEARCH_BRAIN_CN.md)，本库以 README.md、indicator_manifest.json、源码／EX5 及接口验证文档提供指标复用依据。仅保存规则，未新增开发或测试成绩；下方盘点数量仍按原日期保留。
+
 更新：2026-09-10 UTC。Codex 依据用户授权自主管理这个资料入口。
 
 | 入口 | 内容 |

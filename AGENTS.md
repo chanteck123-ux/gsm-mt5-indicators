@@ -1,9 +1,21 @@
-# Codex 项目工作指引
+# Codex 与 Claude 项目工作指引
+
+## Codex 与 Claude 当前分工及知识入口（2026-10-03）
+
+用户指定：Codex 与 Claude 共同讨论方案，代码由 Claude 编写和修改，双方都参与复审，Codex 负责协调、编译／测试和原始证据整理。默认不互换代码职责；用户后续明确要求优先。实际审阅者、对应版本和未完成项分别记录，保存规则不代表双方已复审或测试通过。
+
+完整协作分工只维护在主仓库 [AGENTS.md](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/AGENTS.md)；本库 CLAUDE.md 导入本 AGENTS.md 作为入口，不能据此声称桌面版已自动加载。
+
+- 知识大脑和 EA 计划主仓库：[TX-AI---EA-GOLD-Trading](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading)，先读 [知识大脑](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/docs/GSM_EA_RESEARCH_BRAIN_CN.md)、[资料导航](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/research-memory/README_CN.md) 和 [当前状态](https://github.com/chanteck123-ux/TX-AI---EA-GOLD-Trading/blob/main/research-memory/STATE_CN.md)。
+- 指标库：[gsm-mt5-indicators](https://github.com/chanteck123-ux/gsm-mt5-indicators)，先读本库 README.md、indicator_manifest.json、对应缓冲区接口及验证说明；优先复用，记录提交及源码／EX5 哈希。
+- 本库 docs/GSM_EA_RESEARCH_BRAIN_CN.md 的 2026-09-10 正文是历史参考；当前协作、Python 职责、SOP 归属、评分与项目验收按主仓库最新适用规则和用户明确指令，不从历史参考中的固定数字另立目标。
+- 已授权范围内自主推进；接口、Claude 或测试环境不可用时如实记录，继续可完成的工作，不冒充已实现、已审阅或已保存 Claude 跨聊天记忆。
+- 本次仅保存分工与两个仓库的知识入口，未修改指标源码／EX5、接口清单或原始验证结果。
 
 ## 读取顺序
 
 1. 读取 `research-memory/README_CN.md` 和 `research-memory/STATE_CN.md`，确认当前任务所属项目与最新证据。
-2. 读取 `docs/GSM_EA_RESEARCH_BRAIN_CN.md`，应用用户已确认的研究规则与 GitHub 自主管理授权。
+2. 读取上方链接的主仓库最新知识大脑及 AGENTS.md，核对当前研究规则、协作分工与 GitHub 自主管理授权；本库 docs/GSM_EA_RESEARCH_BRAIN_CN.md 的旧正文仅供历史追溯。
 3. 根据 `research-memory/BRANCH_INDEX_CN.md`、`FILE_INDEX_CN.md` 找到正确分支与文件，再读任务所需原始材料。
 
 ## 已有授权
